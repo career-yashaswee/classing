@@ -51,7 +51,7 @@ function ServiceDetails() {
 									data-jos_animation="fade-left"
 								>
 									<Image
-										src="/assets/img/th-1/content-image-1.jpg"
+										src="/assets/img_placeholder/th-1/content-image-1.jpg"
 										alt="content-image-2"
 										width={526}
 										height={450}
@@ -78,7 +78,7 @@ function ServiceDetails() {
 										<li className="flex flex-col gap-y-4">
 											<div className="h-[50px] w-[50px]">
 												<Image
-													src="/assets/img/th-1/trending-up-icon.svg"
+													src="/assets/img_placeholder/th-1/trending-up-icon.svg"
 													alt="trending-up-icon"
 													width={50}
 													height={50}
@@ -94,7 +94,7 @@ function ServiceDetails() {
 										<li className="flex flex-col gap-y-4">
 											<div className="h-[50px] w-[50px]">
 												<Image
-													src="/assets/img/th-1/cog-icon.svg"
+													src="/assets/img_placeholder/th-1/cog-icon.svg"
 													alt="cog-icon"
 													width={50}
 													height={50}
@@ -137,7 +137,7 @@ function ServiceDetails() {
 									data-jos_animation="fade-left"
 								>
 									<Image
-										src="/assets/img/th-1/content-image-4.jpg"
+										src="/assets/img_placeholder/th-1/content-image-4.jpg"
 										alt="content-image-4"
 										width={529}
 										height={500}
@@ -200,7 +200,7 @@ function ServiceDetails() {
 							{/* Funfact Left Block */}
 							<div className="relative overflow-hidden rounded-[30px] lg:rounded-[50px]">
 								<Image
-									src="/assets/img/th-1/funfact-image.jpg"
+									src="/assets/img_placeholder/th-1/funfact-image.jpg"
 									alt="funfact-image"
 									width={721}
 									height={784}
@@ -296,7 +296,7 @@ function ServiceDetails() {
 									data-jos_animation="fade-left"
 								>
 									<Image
-										src="/assets/img/th-1/content-image-1.jpg"
+										src="/assets/img_placeholder/th-1/content-image-1.jpg"
 										alt="content-image-2"
 										width={526}
 										height={450}
@@ -323,7 +323,7 @@ function ServiceDetails() {
 										<li className="flex flex-col gap-y-4">
 											<div className="h-[50px] w-[50px]">
 												<Image
-													src="/assets/img/th-1/icon-orange-clock.svg"
+													src="/assets/img_placeholder/th-1/icon-orange-clock.svg"
 													alt="trending-up-icon"
 													width={50}
 													height={50}
@@ -339,7 +339,7 @@ function ServiceDetails() {
 										<li className="flex flex-col gap-y-4">
 											<div className="h-[50px] w-[50px]">
 												<Image
-													src="/assets/img/th-1/icon-orange-cursor-click.svg"
+													src="/assets/img_placeholder/th-1/icon-orange-cursor-click.svg"
 													alt="cog-icon"
 													width={50}
 													height={50}
@@ -375,7 +375,7 @@ function ServiceDetails() {
 									data-jos_animation="fade-left"
 								>
 									<Image
-										src="/assets/img/th-1/about-contact-img.jpg"
+										src="/assets/img_placeholder/th-1/about-contact-img.jpg"
 										alt="about-contact-img"
 										width={526}
 										height={550}

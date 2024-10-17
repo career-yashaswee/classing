@@ -46,7 +46,7 @@ function Blog() {
 												className="block overflow-hidden"
 											>
 												<Image
-													src="/assets/img/th-1/blog-main-1.jpg"
+													src="/assets/img_placeholder/th-1/blog-main-1.jpg"
 													alt="blog-main-1"
 													width={856}
 													height={540}
@@ -95,7 +95,7 @@ function Blog() {
 												className="block overflow-hidden"
 											>
 												<Image
-													src="/assets/img/th-1/blog-main-2.jpg"
+													src="/assets/img_placeholder/th-1/blog-main-2.jpg"
 													alt="blog-main-2"
 													width={856}
 													height={540}
@@ -142,7 +142,7 @@ function Blog() {
 												className="block overflow-hidden"
 											>
 												<Image
-													src="/assets/img/th-1/blog-main-3.jpg"
+													src="/assets/img_placeholder/th-1/blog-main-3.jpg"
 													alt="blog-main-3"
 													width={856}
 													height={540}
@@ -189,7 +189,7 @@ function Blog() {
 												className="block overflow-hidden"
 											>
 												<Image
-													src="/assets/img/th-1/blog-main-4.jpg"
+													src="/assets/img_placeholder/th-1/blog-main-4.jpg"
 													alt="blog-main-4"
 													width={856}
 													height={540}
@@ -236,7 +236,7 @@ function Blog() {
 												className="block overflow-hidden"
 											>
 												<Image
-													src="/assets/img/th-1/blog-main-5.jpg"
+													src="/assets/img_placeholder/th-1/blog-main-5.jpg"
 													alt="blog-main-5"
 													width={856}
 													height={540}
@@ -284,7 +284,7 @@ function Blog() {
 												className="block overflow-hidden"
 											>
 												<Image
-													src="/assets/img/th-1/blog-main-6.jpg"
+													src="/assets/img_placeholder/th-1/blog-main-6.jpg"
 													alt="blog-main-6"
 													width={856}
 													height={540}
@@ -338,14 +338,14 @@ function Blog() {
 													className="group flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white text-lg font-bold transition-all duration-300 hover:bg-black hover:text-white active:bg-black"
 												>
 													<Image
-														src="/assets/img/th-1/icon-black-cheveron-left.svg"
+														src="/assets/img_placeholder/th-1/icon-black-cheveron-left.svg"
 														alt="icon-black-cheveron-left"
 														width={24}
 														height={24}
 														className="group-active: h-6 w-6 opacity-100 group-hover:opacity-0"
 													/>
 													<Image
-														src="/assets/img/th-1/icon-white-cheveron-left.svg"
+														src="/assets/img_placeholder/th-1/icon-white-cheveron-left.svg"
 														alt="icon-white-cheveron-left"
 														width={24}
 														height={24}
@@ -383,14 +383,14 @@ function Blog() {
 													className="group flex h-[50px] w-[50px] items-center justify-center rounded-full bg-white text-lg font-bold transition-all duration-300 hover:bg-black hover:text-white"
 												>
 													<Image
-														src="/assets/img/th-1/icon-black-cheveron-right.svg"
+														src="/assets/img_placeholder/th-1/icon-black-cheveron-right.svg"
 														alt="icon-black-cheveron-right"
 														width={24}
 														height={24}
 														className="h-6 w-6 opacity-100 group-hover:opacity-0"
 													/>
 													<Image
-														src="/assets/img/th-1/icon-white-cheveron-right.svg"
+														src="/assets/img_placeholder/th-1/icon-white-cheveron-right.svg"
 														alt="icon-white-cheveron-right"
 														width={24}
 														height={24}
@@ -425,7 +425,7 @@ function Blog() {
 												className="absolute left-[30px] top-0 h-full"
 											>
 												<Image
-													src="/assets/img/th-1/icon-black-search.svg"
+													src="/assets/img_placeholder/th-1/icon-black-search.svg"
 													alt="search"
 													width={20}
 													height={20}
@@ -491,7 +491,7 @@ function Blog() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img/th-1/blog-recent-img-1.jpg"
+														src="/assets/img_placeholder/th-1/blog-recent-img-1.jpg"
 														alt="blog-recent-img-1"
 														width={150}
 														height={130}
@@ -505,7 +505,7 @@ function Blog() {
 													>
 														<div className="h-6 w-6">
 															<Image
-																src="/assets/img/th-1/icon-black-calendar.svg"
+																src="/assets/img_placeholder/th-1/icon-black-calendar.svg"
 																alt="icon-black-calendar"
 																width={24}
 																height={24}
@@ -528,7 +528,7 @@ function Blog() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img/th-1/blog-recent-img-2.jpg"
+														src="/assets/img_placeholder/th-1/blog-recent-img-2.jpg"
 														alt="blog-recent-img-2"
 														width={150}
 														height={130}
@@ -542,7 +542,7 @@ function Blog() {
 													>
 														<div className="h-6 w-6">
 															<Image
-																src="/assets/img/th-1/icon-black-calendar.svg"
+																src="/assets/img_placeholder/th-1/icon-black-calendar.svg"
 																alt="icon-black-calendar"
 																width={24}
 																height={24}
@@ -565,7 +565,7 @@ function Blog() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img/th-1/blog-recent-img-3.jpg"
+														src="/assets/img_placeholder/th-1/blog-recent-img-3.jpg"
 														alt="blog-recent-img-3"
 														width={150}
 														height={130}
@@ -579,7 +579,7 @@ function Blog() {
 													>
 														<div className="h-6 w-6">
 															<Image
-																src="/assets/img/th-1/icon-black-calendar.svg"
+																src="/assets/img_placeholder/th-1/icon-black-calendar.svg"
 																alt="icon-black-calendar"
 																width={24}
 																height={24}

@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer_02 = () => {
   return (
     <footer id='footer-2' className='relative'>
-      <div className='absolute -top-[77px] left-1/2 z-10 h-[77px] w-full -translate-x-1/2 bg-[url(/assets/img/th-2/arc-bottom-shape-1.svg)] bg-cover bg-center bg-no-repeat'></div>
+      <div className='absolute -top-[77px] left-1/2 z-10 h-[77px] w-full -translate-x-1/2 bg-[url(/assets/img_placeholder/th-2/arc-bottom-shape-1.svg)] bg-cover bg-center bg-no-repeat'></div>
       <div className='relative z-[1] overflow-hidden bg-black text-white'>
         {/* Section Container */}
         <div className='pb-10 pt-1 lg:pt-7 xl:pt-[68px]'>
@@ -36,7 +36,7 @@ const Footer_02 = () => {
                   >
                     <span className='hidden sm:inline-block'>Get Started</span>
                     <Image
-                      src='/assets/img/th-1/arrow-right-large.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-large.svg'
                       alt='newsletter'
                       width={24}
                       height={24}
@@ -212,7 +212,7 @@ const Footer_02 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
                           <Image
-                            src='/assets/img/th-1/facebook-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/facebook-icon-white.svg'
                             alt='facebook-icon-white'
                             width={14}
                             height={14}
@@ -229,7 +229,7 @@ const Footer_02 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
                           <Image
-                            src='/assets/img/th-1/twitter-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/twitter-icon-white.svg'
                             alt='twitter-icon-white'
                             width={14}
                             height={14}
@@ -246,7 +246,7 @@ const Footer_02 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
                           <Image
-                            src='/assets/img/th-1/instagram-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/instagram-icon-white.svg'
                             alt='instagram-icon-white'
                             width={14}
                             height={14}
@@ -263,7 +263,7 @@ const Footer_02 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
                           <Image
-                            src='/assets/img/th-1/linkedin-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/linkedin-icon-white.svg'
                             alt='linkedin-icon-white'
                             width={14}
                             height={14}
@@ -292,7 +292,7 @@ const Footer_02 = () => {
               <div className='flex flex-wrap items-center justify-center gap-5 text-center md:justify-between md:text-left'>
                 <Link href='/'>
                   <Image
-                    src='/assets/img/logo-light.png'
+                    src='/assets/img_placeholder/logo-light.png'
                     alt='logo-light'
                     width={111}
                     height={23}
@@ -300,7 +300,7 @@ const Footer_02 = () => {
                 </Link>
                 <p>
                   © Copyright {new Date().getFullYear()}, All Rights Reserved by
-                  Mthemeus
+                  Favdevs
                 </p>
               </div>
             </div>

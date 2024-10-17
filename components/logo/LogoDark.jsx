@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/public/assets/img/logo-dark.png';
+import logo from "../../public/assets/img_placeholder/logo-dark.png";
 
 const LogoDark = () => {
   return (

@@ -11,7 +11,7 @@ const Footer_01 = () => {
           <div className='footer-text-slider flex w-full items-center gap-x-[30px] whitespace-nowrap'>
             {/* Footer Slide Item  */}
             <Image
-              src='/assets/img/th-1/footer-text-slider-icon.svg'
+              src='/assets/img_placeholder/th-1/footer-text-slider-icon.svg'
               alt='footer-text-slider-icon'
               width={60}
               height={60}
@@ -23,7 +23,7 @@ const Footer_01 = () => {
             {/* Footer Slide Item  */}
             {/* Footer Slide Item  */}
             <Image
-              src='/assets/img/th-1/footer-text-slider-icon.svg'
+              src='/assets/img_placeholder/th-1/footer-text-slider-icon.svg'
               alt='footer-text-slider-icon'
               width={60}
               height={60}
@@ -35,7 +35,7 @@ const Footer_01 = () => {
             {/* Footer Slide Item  */}
             {/* Footer Slide Item  */}
             <Image
-              src='/assets/img/th-1/footer-text-slider-icon.svg'
+              src='/assets/img_placeholder/th-1/footer-text-slider-icon.svg'
               alt='footer-text-slider-icon'
               width={60}
               height={60}
@@ -58,7 +58,7 @@ const Footer_01 = () => {
           <div className='flex flex-col gap-y-6'>
             <Link href='/' className='inline-block'>
               <Image
-                src='/assets/img/th-1/logo.png'
+                src='/assets/img_placeholder/th-1/logo.png'
                 alt='logo'
                 width={96}
                 height={24}
@@ -194,7 +194,7 @@ const Footer_01 = () => {
                   className='absolute right-[5px] top-[50%] inline-block h-10 -translate-y-[50%] rounded-[50px] bg-black px-6 transition-all hover:bg-orange-500'
                 >
                   <Image
-                    src='/assets/img/th-1/arrow-right-large.svg'
+                    src='/assets/img_placeholder/th-1/arrow-right-large.svg'
                     height={24}
                     width={24}
                     alt='newsletter'
@@ -212,7 +212,7 @@ const Footer_01 = () => {
         <div className='py-9 text-center'>
           <p>
             © Copyright {new Date().getFullYear()}, All Rights Reserved by
-            Mthemeus
+            Favdevs
           </p>
         </div>
         {/* Footer Bottom */}

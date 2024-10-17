@@ -52,13 +52,13 @@ function Services() {
 								<li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
 									<div className="relative mb-9 h-[70px] w-[70px]">
 										<Image
-											src="/assets/img/th-1/service-icon-black-1.svg"
+											src="/assets/img_placeholder/th-1/service-icon-black-1.svg"
 											alt="service-icon-black-1"
 											width={70}
 											height={70}
 										/>
 										<Image
-											src="/assets/img/th-1/service-icon-orange-1.svg"
+											src="/assets/img_placeholder/th-1/service-icon-orange-1.svg"
 											alt="service-icon-orange-1"
 											width={70}
 											height={70}
@@ -82,13 +82,13 @@ function Services() {
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
-											src="/assets/img/th-1/arrow-right-black.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-black.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
 										/>
 										<Image
-											src="/assets/img/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -101,13 +101,13 @@ function Services() {
 								<li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
 									<div className="relative mb-9 h-[70px] w-[70px]">
 										<Image
-											src="/assets/img/th-1/service-icon-black-2.svg"
+											src="/assets/img_placeholder/th-1/service-icon-black-2.svg"
 											alt="service-icon-black-2"
 											width={70}
 											height={70}
 										/>
 										<Image
-											src="/assets/img/th-1/service-icon-orange-2.svg"
+											src="/assets/img_placeholder/th-1/service-icon-orange-2.svg"
 											alt="service-icon-orange-1"
 											width={70}
 											height={70}
@@ -131,13 +131,13 @@ function Services() {
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
-											src="/assets/img/th-1/arrow-right-black.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-black.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
 										/>
 										<Image
-											src="/assets/img/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -152,13 +152,13 @@ function Services() {
 								<li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
 									<div className="relative mb-9 h-[70px] w-[70px]">
 										<Image
-											src="/assets/img/th-1/service-icon-black-3.svg"
+											src="/assets/img_placeholder/th-1/service-icon-black-3.svg"
 											alt="service-icon-black-3"
 											width={70}
 											height={70}
 										/>
 										<Image
-											src="/assets/img/th-1/service-icon-orange-3.svg"
+											src="/assets/img_placeholder/th-1/service-icon-orange-3.svg"
 											alt="service-icon-orange-3"
 											width={70}
 											height={70}
@@ -182,13 +182,13 @@ function Services() {
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
-											src="/assets/img/th-1/arrow-right-black.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-black.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
 										/>
 										<Image
-											src="/assets/img/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -201,13 +201,13 @@ function Services() {
 								<li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
 									<div className="relative mb-9 h-[70px] w-[70px]">
 										<Image
-											src="/assets/img/th-1/service-icon-black-4.svg"
+											src="/assets/img_placeholder/th-1/service-icon-black-4.svg"
 											alt="service-icon-black-4"
 											width={70}
 											height={70}
 										/>
 										<Image
-											src="/assets/img/th-1/service-icon-orange-4.svg"
+											src="/assets/img_placeholder/th-1/service-icon-orange-4.svg"
 											alt="service-icon-orange-4"
 											width={70}
 											height={70}
@@ -231,13 +231,13 @@ function Services() {
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
-											src="/assets/img/th-1/arrow-right-black.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-black.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
 										/>
 										<Image
-											src="/assets/img/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -250,13 +250,13 @@ function Services() {
 								<li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
 									<div className="relative mb-9 h-[70px] w-[70px]">
 										<Image
-											src="/assets/img/th-1/service-icon-black-5.svg"
+											src="/assets/img_placeholder/th-1/service-icon-black-5.svg"
 											alt="service-icon-black-5"
 											width={70}
 											height={70}
 										/>
 										<Image
-											src="/assets/img/th-1/service-icon-orange-5.svg"
+											src="/assets/img_placeholder/th-1/service-icon-orange-5.svg"
 											alt="service-icon-orange-5"
 											width={70}
 											height={70}
@@ -280,13 +280,13 @@ function Services() {
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
-											src="/assets/img/th-1/arrow-right-black.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-black.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
 										/>
 										<Image
-											src="/assets/img/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -299,13 +299,13 @@ function Services() {
 								<li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
 									<div className="relative mb-9 h-[70px] w-[70px]">
 										<Image
-											src="/assets/img/th-1/service-icon-black-6.svg"
+											src="/assets/img_placeholder/th-1/service-icon-black-6.svg"
 											alt="service-icon-black-6"
 											width={70}
 											height={70}
 										/>
 										<Image
-											src="/assets/img/th-1/service-icon-orange-6.svg"
+											src="/assets/img_placeholder/th-1/service-icon-orange-6.svg"
 											alt="service-icon-orange-6"
 											width={70}
 											height={70}
@@ -329,13 +329,13 @@ function Services() {
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
-											src="/assets/img/th-1/arrow-right-black.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-black.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
 										/>
 										<Image
-											src="/assets/img/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -350,13 +350,13 @@ function Services() {
 								<li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
 									<div className="relative mb-9 h-[70px] w-[70px]">
 										<Image
-											src="/assets/img/th-1/service-icon-black-7.svg"
+											src="/assets/img_placeholder/th-1/service-icon-black-7.svg"
 											alt="service-icon-black-7"
 											width={70}
 											height={70}
 										/>
 										<Image
-											src="/assets/img/th-1/service-icon-orange-7.svg"
+											src="/assets/img_placeholder/th-1/service-icon-orange-7.svg"
 											alt="service-icon-orange-7"
 											width={70}
 											height={70}
@@ -380,13 +380,13 @@ function Services() {
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
-											src="/assets/img/th-1/arrow-right-black.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-black.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
 										/>
 										<Image
-											src="/assets/img/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -399,13 +399,13 @@ function Services() {
 								<li className="group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black">
 									<div className="relative mb-9 h-[70px] w-[70px]">
 										<Image
-											src="/assets/img/th-1/service-icon-black-8.svg"
+											src="/assets/img_placeholder/th-1/service-icon-black-8.svg"
 											alt="service-icon-black-8"
 											width={70}
 											height={70}
 										/>
 										<Image
-											src="/assets/img/th-1/service-icon-orange-8.svg"
+											src="/assets/img_placeholder/th-1/service-icon-orange-8.svg"
 											alt="service-icon-orange-8"
 											width={70}
 											height={70}
@@ -429,13 +429,13 @@ function Services() {
 										className="relative inline-block h-[30px] w-[30px] duration-300"
 									>
 										<Image
-											src="/assets/img/th-1/arrow-right-black.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-black.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
 										/>
 										<Image
-											src="/assets/img/th-1/arrow-right-orange.svg"
+											src="/assets/img_placeholder/th-1/arrow-right-orange.svg"
 											alt="arrow-right-black"
 											width={30}
 											height={30}
@@ -507,7 +507,7 @@ function Services() {
 												<p>How do I start AI SaaS?</p>
 												<div className="accordion-icon">
 													<Image
-														src="/assets/img/plus.svg"
+														src="/assets/img_placeholder/plus.svg"
 														alt="plus"
 														width={24}
 														height={24}
@@ -536,7 +536,7 @@ function Services() {
 												<p>Can I customize AI SaaS solutions?</p>
 												<div className="accordion-icon">
 													<Image
-														src="/assets/img/plus.svg"
+														src="/assets/img_placeholder/plus.svg"
 														alt="plus"
 														width={24}
 														height={24}
@@ -565,7 +565,7 @@ function Services() {
 												<p>How can AI benefit my business?</p>
 												<div className="accordion-icon">
 													<Image
-														src="/assets/img/plus.svg"
+														src="/assets/img_placeholder/plus.svg"
 														alt="plus"
 														width={24}
 														height={24}
@@ -616,7 +616,7 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
@@ -629,7 +629,7 @@ function Services() {
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img/th-1/testimonial-img-1.jpg"
+												src="/assets/img_placeholder/th-1/testimonial-img-1.jpg"
 												alt="testimonial-img"
 												width={60}
 												height={60}
@@ -655,7 +655,7 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
@@ -669,7 +669,7 @@ function Services() {
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img/th-1/testimonial-img-2.jpg"
+												src="/assets/img_placeholder/th-1/testimonial-img-2.jpg"
 												alt="testimonial-img"
 												width={60}
 												height={60}
@@ -695,7 +695,7 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
@@ -709,7 +709,7 @@ function Services() {
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img/th-1/testimonial-img-3.jpg"
+												src="/assets/img_placeholder/th-1/testimonial-img-3.jpg"
 												alt="testimonial-img"
 												width={60}
 												height={60}
@@ -735,7 +735,7 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
@@ -749,7 +749,7 @@ function Services() {
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img/th-1/testimonial-img-4.jpg"
+												src="/assets/img_placeholder/th-1/testimonial-img-4.jpg"
 												alt="testimonial-img"
 												width={60}
 												height={60}
@@ -775,7 +775,7 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
@@ -788,7 +788,7 @@ function Services() {
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img/th-1/testimonial-img-5.jpg"
+												src="/assets/img_placeholder/th-1/testimonial-img-5.jpg"
 												alt="testimonial-img"
 												width={60}
 												height={60}
@@ -814,7 +814,7 @@ function Services() {
 								>
 									<div className="block">
 										<Image
-											src="/assets/img/th-1/rating.svg"
+											src="/assets/img_placeholder/th-1/rating.svg"
 											alt="rating"
 											width={146}
 											height={25}
@@ -827,7 +827,7 @@ function Services() {
 									<div className="flex items-center gap-x-4">
 										<div className="h-[60px] w-[60px] overflow-hidden rounded-full">
 											<Image
-												src="/assets/img/th-1/testimonial-img-6.jpg"
+												src="/assets/img_placeholder/th-1/testimonial-img-6.jpg"
 												alt="testimonial-img"
 												width={60}
 												height={60}

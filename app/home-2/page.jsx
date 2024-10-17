@@ -40,7 +40,7 @@ function Home_2() {
                     >
                       Start Chatting for Free
                       <Image
-                        src='/assets/img/th-2/icon-white-long-arrow-right.svg'
+                        src='/assets/img_placeholder/th-2/icon-white-long-arrow-right.svg'
                         alt='icon-white-long-arrow-right'
                         width={24}
                         height={24}
@@ -51,7 +51,7 @@ function Home_2() {
                   {/* Hero Image */}
                   <div className='hero-img animate-pulse overflow-hidden rounded-2xl bg-black text-right'>
                     <Image
-                      src='/assets/img/th-2/hero-img-2.png'
+                      src='/assets/img_placeholder/th-2/hero-img-2.png'
                       alt='hero-img-2'
                       width={1296}
                       height={640}
@@ -66,7 +66,7 @@ function Home_2() {
             {/* Section Spacer */}
             {/* Background Gradient */}
             <div className='absolute left-1/2 top-[80%] h-[1280px] w-[1280px] -translate-x-1/2 rounded-full bg-gradient-to-t from-[#5636C7] to-[#5028DD] blur-[250px]'></div>
-            <div className='absolute bottom-0 left-1/2 h-[77px] w-full -translate-x-1/2 bg-[url(/assets/img/th-2/arc-top-shape-1.svg)] bg-cover bg-center bg-no-repeat'></div>
+            <div className='absolute bottom-0 left-1/2 h-[77px] w-full -translate-x-1/2 bg-[url(/assets/img_placeholder/th-2/arc-top-shape-1.svg)] bg-cover bg-center bg-no-repeat'></div>
           </div>
         </section>
         {/*...::: Hero Section End :::... */}
@@ -92,7 +92,7 @@ function Home_2() {
                 >
                   <div className='flex h-20 w-20 items-center justify-center rounded-full bg-white p-4 shadow-[0_4px_60px_0_rgba(0,0,0,0.1)]'>
                     <Image
-                      src='/assets/img/th-2/icon-feature-1.svg'
+                      src='/assets/img_placeholder/th-2/icon-feature-1.svg'
                       alt='icon-feature-1'
                       width={49}
                       height={45}
@@ -116,7 +116,7 @@ function Home_2() {
                 >
                   <div className='flex h-20 w-20 items-center justify-center rounded-full bg-white p-4 shadow-[0_4px_60px_0_rgba(0,0,0,0.1)]'>
                     <Image
-                      src='/assets/img/th-2/icon-feature-2.svg'
+                      src='/assets/img_placeholder/th-2/icon-feature-2.svg'
                       alt='icon-feature-2'
                       width={45}
                       height={45}
@@ -140,7 +140,7 @@ function Home_2() {
                 >
                   <div className='flex h-20 w-20 items-center justify-center rounded-full bg-white p-4 shadow-[0_4px_60px_0_rgba(0,0,0,0.1)]'>
                     <Image
-                      src='/assets/img/th-2/icon-feature-3.svg'
+                      src='/assets/img_placeholder/th-2/icon-feature-3.svg'
                       alt='icon-feature-3'
                       width={36}
                       height={45}
@@ -182,9 +182,9 @@ function Home_2() {
                   className='jos order-2 mt-16 rounded-md md:order-1 md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img/th-2/th2-content-img-1.png'
+                      src='/assets/img_placeholder/th-2/th2-content-img-1.png'
                       alt='th2-content-img-1.png'
                       width={320}
                       height={564}
@@ -245,9 +245,9 @@ function Home_2() {
                   className='jos order-2 mt-16 rounded-md md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img/th-2/th2-content-img-2.png'
+                      src='/assets/img_placeholder/th-2/th2-content-img-2.png'
                       alt='th2-content-img-2.png'
                       width={320}
                       height={564}
@@ -304,9 +304,9 @@ function Home_2() {
                   className='jos order-2 mt-16 rounded-md md:order-1 md:mt-0'
                   data-jos_animation='fade-up'
                 >
-                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
+                  <div className="relative h-[494px] rounded-tl-[20px] rounded-tr-[20px] bg-[url('/assets/img_placeholder/th-2/content-shape.jpg')] bg-cover bg-no-repeat">
                     <Image
-                      src='/assets/img/th-2/th2-content-img-3.png'
+                      src='/assets/img_placeholder/th-2/th2-content-img-3.png'
                       alt='th2-content-img-3.png'
                       width={320}
                       height={564}
@@ -347,7 +347,7 @@ function Home_2() {
                   >
                     Try It Now
                     <Image
-                      src='/assets/img/th-2/icon-white-long-arrow-right.svg'
+                      src='/assets/img_placeholder/th-2/icon-white-long-arrow-right.svg'
                       alt='icon-white-long-arrow-right'
                       width={24}
                       height={24}
@@ -399,7 +399,7 @@ function Home_2() {
                     >
                       Explore Integrations
                       <Image
-                        src='/assets/img/th-2/icon-white-long-arrow-right.svg'
+                        src='/assets/img_placeholder/th-2/icon-white-long-arrow-right.svg'
                         alt='icon-white-long-arrow-right'
                         width={24}
                         height={24}
@@ -411,7 +411,7 @@ function Home_2() {
                     <div className='horizontal-slide-from-right-to-left flex w-[1161px] gap-x-6'>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-discord.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-discord.svg'
                           alt='icon-flat-color-discord'
                           width={100}
                           height={100}
@@ -419,7 +419,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-github.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-github.svg'
                           alt='icon-flat-color-github'
                           width={100}
                           height={100}
@@ -427,7 +427,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-mailchamp.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-mailchamp.svg'
                           alt='icon-flat-color-mailchamp'
                           width={100}
                           height={100}
@@ -435,7 +435,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-messenger.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-messenger.svg'
                           alt='icon-flat-color-messenger'
                           width={100}
                           height={100}
@@ -443,7 +443,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-skype.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-skype.svg'
                           alt='icon-flat-color-skype'
                           width={100}
                           height={100}
@@ -451,7 +451,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-slack.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-slack.svg'
                           alt='icon-flat-color-slack'
                           width={100}
                           height={100}
@@ -459,7 +459,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-snapchat.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-snapchat.svg'
                           alt='icon-flat-color-snapchat'
                           width={100}
                           height={100}
@@ -467,7 +467,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-whatsapp.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-whatsapp.svg'
                           alt='icon-flat-color-whatsapp'
                           width={100}
                           height={100}
@@ -475,7 +475,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-zendesk.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-zendesk.svg'
                           alt='icon-flat-color-zendesk'
                           width={100}
                           height={100}
@@ -487,7 +487,7 @@ function Home_2() {
                     <div className='horizontal-slide-from-left-to-right flex w-[1161px] gap-x-6'>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-discord.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-discord.svg'
                           alt='icon-flat-color-discord'
                           width={100}
                           height={100}
@@ -495,7 +495,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-github.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-github.svg'
                           alt='icon-flat-color-github'
                           width={100}
                           height={100}
@@ -503,7 +503,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-mailchamp.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-mailchamp.svg'
                           alt='icon-flat-color-mailchamp'
                           width={100}
                           height={100}
@@ -511,7 +511,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-messenger.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-messenger.svg'
                           alt='icon-flat-color-messenger'
                           width={100}
                           height={100}
@@ -519,7 +519,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-skype.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-skype.svg'
                           alt='icon-flat-color-skype'
                           width={100}
                           height={100}
@@ -527,7 +527,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-slack.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-slack.svg'
                           alt='icon-flat-color-slack'
                           width={100}
                           height={100}
@@ -535,7 +535,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-snapchat.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-snapchat.svg'
                           alt='icon-flat-color-snapchat'
                           width={100}
                           height={100}
@@ -543,7 +543,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-whatsapp.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-whatsapp.svg'
                           alt='icon-flat-color-whatsapp'
                           width={100}
                           height={100}
@@ -551,7 +551,7 @@ function Home_2() {
                       </div>
                       <div className='flex h-[105px] w-[105px] items-center justify-center rounded-[10px] bg-white'>
                         <Image
-                          src='/assets/img/th-2/icon-flat-color-zendesk.svg'
+                          src='/assets/img_placeholder/th-2/icon-flat-color-zendesk.svg'
                           alt='icon-flat-color-zendesk'
                           width={100}
                           height={100}
@@ -596,7 +596,7 @@ function Home_2() {
                   <div className='flex flex-col gap-x-16 md:flex-row lg:gap-x-28 items-center xxl:items-baseline xl:gap-x-[134px]'>
                     <div className='h-auto w-[300px] self-center overflow-hidden rounded-[10px] lg:w-[375px] xl:h-[494px] xl:w-[526px]'>
                       <Image
-                        src='/assets/img/th-2/testimonial-user-img-1.jpg'
+                        src='/assets/img_placeholder/th-2/testimonial-user-img-1.jpg'
                         alt='testimonial-img-1'
                         width={526}
                         height={494}
@@ -628,7 +628,7 @@ function Home_2() {
                   <div className='flex flex-col gap-x-16 md:flex-row lg:gap-x-28 items-center xxl:items-baseline xl:gap-x-[134px]'>
                     <div className='h-auto w-[300px] self-center overflow-hidden rounded-[10px] lg:w-[375px] xl:h-[494px] xl:w-[526px]'>
                       <Image
-                        src='/assets/img/th-2/testimonial-user-img-1.jpg'
+                        src='/assets/img_placeholder/th-2/testimonial-user-img-1.jpg'
                         alt='testimonial-img-1'
                         width={526}
                         height={494}
@@ -663,13 +663,13 @@ function Home_2() {
                     className='testimonial-nav-prev testimonial-nav-dir'
                   >
                     <Image
-                      src='/assets/img/th-2/icon-black-long-arrow-left.svg'
+                      src='/assets/img_placeholder/th-2/icon-black-long-arrow-left.svg'
                       alt='icon-black-long-arrow-left'
                       width={24}
                       height={24}
                     />
                     <Image
-                      src='/assets/img/th-2/icon-white-long-arrow-left.svg'
+                      src='/assets/img_placeholder/th-2/icon-white-long-arrow-left.svg'
                       alt='icon-white-long-arrow-left'
                       width={24}
                       height={24}
@@ -680,13 +680,13 @@ function Home_2() {
                     className='testimonial-nav-next testimonial-nav-dir'
                   >
                     <Image
-                      src='/assets/img/th-2/icon-black-long-arrow-right.svg'
+                      src='/assets/img_placeholder/th-2/icon-black-long-arrow-right.svg'
                       alt='icon-black-long-arrow-right'
                       width={24}
                       height={24}
                     />
                     <Image
-                      src='/assets/img/th-2/icon-white-long-arrow-right.svg'
+                      src='/assets/img_placeholder/th-2/icon-white-long-arrow-right.svg'
                       alt='icon-white-long-arrow-right'
                       width={24}
                       height={24}
@@ -733,7 +733,7 @@ function Home_2() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img/th-1/blog-main-1.jpg'
+                      src='/assets/img_placeholder/th-1/blog-main-1.jpg'
                       alt='blog-main-1'
                       width={416}
                       height={320}
@@ -752,7 +752,7 @@ function Home_2() {
                       <span>23 June 2024</span>
                       <Link href='/blog-details' className='h-[30px] w-[30px]'>
                         <Image
-                          src='/assets/img//th-2/icon-blue-long-arrow-right.svg'
+                          src='/assets/img_placeholder//th-2/icon-blue-long-arrow-right.svg'
                           alt='icon-blue-long-arrow-right'
                           width={30}
                           height={30}
@@ -775,7 +775,7 @@ function Home_2() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img/th-1/blog-main-2.jpg'
+                      src='/assets/img_placeholder/th-1/blog-main-2.jpg'
                       alt='blog-main-2'
                       width={416}
                       height={320}
@@ -794,7 +794,7 @@ function Home_2() {
                       <span>20 June 2024</span>
                       <Link href='/blog-details' className='h-[30px] w-[30px]'>
                         <Image
-                          src='/assets/img//th-2/icon-blue-long-arrow-right.svg'
+                          src='/assets/img_placeholder//th-2/icon-blue-long-arrow-right.svg'
                           alt='icon-blue-long-arrow-right'
                           width={30}
                           height={30}
@@ -817,7 +817,7 @@ function Home_2() {
                     className='block h-[320px] w-full overflow-hidden rounded-[30px]'
                   >
                     <Image
-                      src='/assets/img/th-1/blog-main-3.jpg'
+                      src='/assets/img_placeholder/th-1/blog-main-3.jpg'
                       alt='blog-main-3'
                       width={416}
                       height={320}
@@ -836,7 +836,7 @@ function Home_2() {
                       <span>18 June 2024</span>
                       <Link href='/blog-details' className='h-[30px] w-[30px]'>
                         <Image
-                          src='/assets/img//th-2/icon-blue-long-arrow-right.svg'
+                          src='/assets/img_placeholder//th-2/icon-blue-long-arrow-right.svg'
                           alt='icon-blue-long-arrow-right'
                           width={30}
                           height={30}
@@ -885,13 +885,13 @@ function Home_2() {
                     </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
-                        src='/assets/img/plus.svg'
+                        src='/assets/img_placeholder/plus.svg'
                         alt='plus'
                         width={24}
                         height={24}
                       />
                       <Image
-                        src='/assets/img/plus-white.svg'
+                        src='/assets/img_placeholder/plus-white.svg'
                         alt='plus-white'
                         width={24}
                         height={24}
@@ -923,13 +923,13 @@ function Home_2() {
                     </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
-                        src='/assets/img/plus.svg'
+                        src='/assets/img_placeholder/plus.svg'
                         alt='plus'
                         width={24}
                         height={24}
                       />
                       <Image
-                        src='/assets/img/plus-white.svg'
+                        src='/assets/img_placeholder/plus-white.svg'
                         width={24}
                         height={24}
                         alt='plus-white'
@@ -961,13 +961,13 @@ function Home_2() {
                     </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
-                        src='/assets/img/plus.svg'
+                        src='/assets/img_placeholder/plus.svg'
                         alt='plus'
                         width={24}
                         height={24}
                       />
                       <Image
-                        src='/assets/img/plus-white.svg'
+                        src='/assets/img_placeholder/plus-white.svg'
                         alt='plus-white'
                         width={24}
                         height={24}
@@ -999,13 +999,13 @@ function Home_2() {
                     </h5>
                     <div className='accordion-icon is-blue'>
                       <Image
-                        src='/assets/img/plus.svg'
+                        src='/assets/img_placeholder/plus.svg'
                         alt='plus'
                         width={24}
                         height={24}
                       />
                       <Image
-                        src='/assets/img/plus-white.svg'
+                        src='/assets/img_placeholder/plus-white.svg'
                         alt='plus-white'
                         width={24}
                         height={24}
@@ -1040,13 +1040,13 @@ function Home_2() {
                       <Image
                         width={24}
                         height={24}
-                        src='/assets/img/plus.svg'
+                        src='/assets/img_placeholder/plus.svg'
                         alt='plus'
                       />
                       <Image
                         width={24}
                         height={24}
-                        src='/assets/img/plus-white.svg'
+                        src='/assets/img_placeholder/plus-white.svg'
                         alt='plus-white'
                       />
                     </div>

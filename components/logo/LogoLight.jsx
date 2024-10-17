@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from '@/public/assets/img/logo-light.png';
+import logo from '../../public/assets/img_placeholder/logo-light.png';
 
 const LogoLight = () => {
   return (

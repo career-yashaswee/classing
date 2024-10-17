@@ -109,14 +109,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -128,14 +128,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -147,14 +147,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -201,14 +201,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -220,14 +220,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -239,14 +239,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -258,14 +258,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -312,14 +312,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -331,14 +331,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -350,14 +350,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -369,14 +369,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -388,14 +388,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -442,14 +442,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -461,14 +461,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -480,14 +480,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -499,14 +499,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -518,14 +518,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -537,14 +537,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -599,14 +599,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -618,14 +618,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -637,14 +637,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -689,14 +689,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -708,14 +708,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -727,14 +727,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -746,14 +746,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -798,14 +798,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -817,14 +817,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -836,14 +836,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -855,14 +855,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -874,14 +874,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -926,14 +926,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -945,14 +945,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -964,14 +964,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -983,14 +983,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -1002,14 +1002,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -1021,14 +1021,14 @@ function Pricing() {
 													<li className="flex items-center gap-x-3 font-bold group-hover:text-white">
 														<div className="relative h-[24px] w-[24px]">
 															<Image
-																src="/assets/img/th-1/icon-black-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-black-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
 																className="h-full w-full object-cover"
 															/>
 															<Image
-																src="/assets/img/th-1/icon-orange-badge-check.svg"
+																src="/assets/img_placeholder/th-1/icon-orange-badge-check.svg"
 																alt="icon-black-badge-check"
 																width={24}
 																height={24}
@@ -1112,7 +1112,7 @@ function Pricing() {
 												<p>How do I start AI SaaS?</p>
 												<div className="accordion-icon">
 													<Image
-														src="/assets/img/plus.svg"
+														src="/assets/img_placeholder/plus.svg"
 														width={24}
 														height={24}
 														alt="plus"
@@ -1139,7 +1139,7 @@ function Pricing() {
 												<p>Can I customize AI SaaS solutions?</p>
 												<div className="accordion-icon">
 													<Image
-														src="/assets/img/plus.svg"
+														src="/assets/img_placeholder/plus.svg"
 														width={24}
 														height={24}
 														alt="plus"
@@ -1166,7 +1166,7 @@ function Pricing() {
 												<p>How can AI benefit my business?</p>
 												<div className="accordion-icon">
 													<Image
-														src="/assets/img/plus.svg"
+														src="/assets/img_placeholder/plus.svg"
 														width={24}
 														height={24}
 														alt="plus"

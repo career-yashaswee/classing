@@ -65,7 +65,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
           <div onClick={handleGoBack} className='go-back'>
             <Image
               className='dropdown-icon'
-              src='/assets/img/icon-black-long-arrow-right.svg'
+              src='/assets/img_placeholder/icon-black-long-arrow-right.svg'
               alt='cheveron-right'
               width={16}
               height={16}
@@ -86,7 +86,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
               Demo
               <Image
                 className='dropdown-icon'
-                src='/assets/img/icon-black-cheveron-right.svg'
+                src='/assets/img_placeholder/icon-black-cheveron-right.svg'
                 alt='cheveron-right'
                 width={16}
                 height={16}
@@ -123,7 +123,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
               Services
               <Image
                 className='dropdown-icon'
-                src='/assets/img/icon-black-cheveron-right.svg'
+                src='/assets/img_placeholder/icon-black-cheveron-right.svg'
                 alt='cheveron-right'
                 width={16}
                 height={16}
@@ -149,7 +149,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
               Pages
               <Image
                 className='dropdown-icon'
-                src='/assets/img/icon-black-cheveron-right.svg'
+                src='/assets/img_placeholder/icon-black-cheveron-right.svg'
                 alt='cheveron-right'
                 width={16}
                 height={16}
@@ -167,7 +167,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
                   Blogs
                   <Image
                     className='dropdown-icon'
-                    src='/assets/img/icon-black-cheveron-right.svg'
+                    src='/assets/img_placeholder/icon-black-cheveron-right.svg'
                     alt='cheveron-right'
                     width={16}
                     height={16}
@@ -195,7 +195,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
                   Team
                   <Image
                     className='dropdown-icon'
-                    src='/assets/img/icon-black-cheveron-right.svg'
+                    src='/assets/img_placeholder/icon-black-cheveron-right.svg'
                     alt='cheveron-right'
                     width={16}
                     height={16}
@@ -223,7 +223,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
                   FAQ
                   <Image
                     className='dropdown-icon'
-                    src='/assets/img/icon-black-cheveron-right.svg'
+                    src='/assets/img_placeholder/icon-black-cheveron-right.svg'
                     alt='cheveron-right'
                     width={16}
                     height={16}
@@ -251,7 +251,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
                   Portfolio
                   <Image
                     className='dropdown-icon'
-                    src='/assets/img/icon-black-cheveron-right.svg'
+                    src='/assets/img_placeholder/icon-black-cheveron-right.svg'
                     alt='cheveron-right'
                     width={16}
                     height={16}
@@ -290,7 +290,7 @@ const Navbar = ({ mobileMenu, setMobileMenu, color }) => {
                   Utilities
                   <Image
                     className='dropdown-icon'
-                    src='/assets/img/icon-black-cheveron-right.svg'
+                    src='/assets/img_placeholder/icon-black-cheveron-right.svg'
                     alt='cheveron-right'
                     width={16}
                     height={16}

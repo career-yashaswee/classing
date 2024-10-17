@@ -182,7 +182,7 @@ const Footer_04 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600'>
                           <Image
-                            src='/assets/img/th-1/facebook-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/facebook-icon-white.svg'
                             alt='facebook-icon-white'
                             width={14}
                             height={14}
@@ -199,7 +199,7 @@ const Footer_04 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600'>
                           <Image
-                            src='/assets/img/th-1/twitter-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/twitter-icon-white.svg'
                             alt='twitter-icon-white'
                             width={14}
                             height={14}
@@ -216,7 +216,7 @@ const Footer_04 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600'>
                           <Image
-                            src='/assets/img/th-1/instagram-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/instagram-icon-white.svg'
                             alt='instagram-icon-white'
                             width={14}
                             height={14}
@@ -233,7 +233,7 @@ const Footer_04 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-green-600'>
                           <Image
-                            src='/assets/img/th-1/linkedin-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/linkedin-icon-white.svg'
                             alt='linkedin-icon-white'
                             width={14}
                             height={14}
@@ -262,7 +262,7 @@ const Footer_04 = () => {
               <div className='flex flex-wrap items-center justify-center gap-5 text-center md:justify-between md:text-left'>
                 <Link href='/'>
                   <Image
-                    src='/assets/img/logo-light.png'
+                    src='/assets/img_placeholder/logo-light.png'
                     alt='logo-light'
                     width={111}
                     height={23}
@@ -270,7 +270,7 @@ const Footer_04 = () => {
                 </Link>
                 <p>
                   © Copyright {new Date().getFullYear()}, All Rights Reserved by
-                  Mthemeus
+                  Favdevs
                 </p>
               </div>
             </div>

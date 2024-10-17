@@ -54,7 +54,7 @@ function Portfolio() {
 										className="block w-full overflow-hidden rounded-[10px] group-odd:h-80 group-even:h-96 lg:group-odd:h-[550px] lg:group-even:h-[750px]"
 									>
 										<Image
-											src="/assets/img/th-1/portfolio-img-1.jpg"
+											src="/assets/img_placeholder/th-1/portfolio-img-1.jpg"
 											alt="portfolio-img-1"
 											width={636}
 											height={550}
@@ -70,7 +70,7 @@ function Portfolio() {
 										</span>
 										<div className="h-8 w-8 lg:h-[45px] lg:w-[45px]">
 											<Image
-												src="/assets/img/th-1/icon-black-long-arrow-right.svg"
+												src="/assets/img_placeholder/th-1/icon-black-long-arrow-right.svg"
 												alt="icon-black-long-arrow-right.svg"
 												width={45}
 												height={45}
@@ -89,7 +89,7 @@ function Portfolio() {
 										className="block w-full overflow-hidden rounded-[10px] group-odd:h-80 group-even:h-96 lg:group-odd:h-[550px] lg:group-even:h-[750px]"
 									>
 										<Image
-											src="/assets/img/th-1/portfolio-img-2.jpg"
+											src="/assets/img_placeholder/th-1/portfolio-img-2.jpg"
 											alt="portfolio-img-2"
 											width={636}
 											height={550}
@@ -105,7 +105,7 @@ function Portfolio() {
 										</span>
 										<div className="h-8 w-8 lg:h-[45px] lg:w-[45px]">
 											<Image
-												src="/assets/img/th-1/icon-black-long-arrow-right.svg"
+												src="/assets/img_placeholder/th-1/icon-black-long-arrow-right.svg"
 												alt="icon-black-long-arrow-right.svg"
 												width={45}
 												height={45}
@@ -124,7 +124,7 @@ function Portfolio() {
 										className="block w-full overflow-hidden rounded-[10px] group-odd:h-80 group-even:h-96 lg:group-odd:h-[550px] lg:group-even:h-[750px]"
 									>
 										<Image
-											src="/assets/img/th-1/portfolio-img-3.jpg"
+											src="/assets/img_placeholder/th-1/portfolio-img-3.jpg"
 											alt="portfolio-img-3"
 											width={636}
 											height={550}
@@ -140,7 +140,7 @@ function Portfolio() {
 										</span>
 										<div className="h-8 w-8 lg:h-[45px] lg:w-[45px]">
 											<Image
-												src="/assets/img/th-1/icon-black-long-arrow-right.svg"
+												src="/assets/img_placeholder/th-1/icon-black-long-arrow-right.svg"
 												alt="icon-black-long-arrow-right.svg"
 												width={45}
 												height={45}
@@ -159,7 +159,7 @@ function Portfolio() {
 										className="block w-full overflow-hidden rounded-[10px] group-odd:h-80 group-even:h-96 lg:group-odd:h-[550px] lg:group-even:h-[750px]"
 									>
 										<Image
-											src="/assets/img/th-1/portfolio-img-4.jpg"
+											src="/assets/img_placeholder/th-1/portfolio-img-4.jpg"
 											alt="portfolio-img-4"
 											width={636}
 											height={550}
@@ -175,7 +175,7 @@ function Portfolio() {
 										</span>
 										<div className="h-8 w-8 lg:h-[45px] lg:w-[45px]">
 											<Image
-												src="/assets/img/th-1/icon-black-long-arrow-right.svg"
+												src="/assets/img_placeholder/th-1/icon-black-long-arrow-right.svg"
 												alt="icon-black-long-arrow-right.svg"
 												width={45}
 												height={45}
@@ -194,7 +194,7 @@ function Portfolio() {
 										className="block w-full overflow-hidden rounded-[10px] group-odd:h-80 group-even:h-96 lg:group-odd:h-[550px] lg:group-even:h-[750px]"
 									>
 										<Image
-											src="/assets/img/th-1/portfolio-img-5.jpg"
+											src="/assets/img_placeholder/th-1/portfolio-img-5.jpg"
 											alt="portfolio-img-5"
 											width={636}
 											height={550}
@@ -210,7 +210,7 @@ function Portfolio() {
 										</span>
 										<div className="h-8 w-8 lg:h-[45px] lg:w-[45px]">
 											<Image
-												src="/assets/img/th-1/icon-black-long-arrow-right.svg"
+												src="/assets/img_placeholder/th-1/icon-black-long-arrow-right.svg"
 												alt="icon-black-long-arrow-right.svg"
 												width={45}
 												height={45}
@@ -229,7 +229,7 @@ function Portfolio() {
 										className="block w-full overflow-hidden rounded-[10px] group-odd:h-80 group-even:h-96 lg:group-odd:h-[550px] lg:group-even:h-[750px]"
 									>
 										<Image
-											src="/assets/img/th-1/portfolio-img-6.jpg"
+											src="/assets/img_placeholder/th-1/portfolio-img-6.jpg"
 											alt="portfolio-img-6"
 											width={636}
 											height={550}
@@ -245,7 +245,7 @@ function Portfolio() {
 										</span>
 										<div className="h-8 w-8 lg:h-[45px] lg:w-[45px]">
 											<Image
-												src="/assets/img/th-1/icon-black-long-arrow-right.svg"
+												src="/assets/img_placeholder/th-1/icon-black-long-arrow-right.svg"
 												alt="icon-black-long-arrow-right.svg"
 												width={45}
 												height={45}

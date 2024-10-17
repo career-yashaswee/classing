@@ -30,8 +30,8 @@ const Footer_03 = () => {
               {/* Footer Contact */}
               <div className='mt-11 grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
                 <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
-                  <Link href='mailto:mthemeus@gmail.com'>
-                    mthemeus@gmail.com
+                  <Link href='mailto:favdevs@gmail.com'>
+                  favdevs@gmail.com
                   </Link>
                 </div>
                 <div className='rounded-[10px] bg-[#121212] px-11 py-5 text-center font-raleway font-bold leading-[1.33] text-[#F6F6EB] transition-all duration-300 hover:bg-[#381FD1] xl:text-2xl xxl:text-3xl'>
@@ -58,7 +58,7 @@ const Footer_03 = () => {
                 <div className='flex flex-col gap-y-6 md:max-w-xs xl:max-w-[480px]'>
                   <Link href='/' className='inline-block'>
                     <Image
-                      src='/assets/img/logo-light.png'
+                      src='/assets/img_placeholder/logo-light.png'
                       alt='logo'
                       width={96}
                       height={24}
@@ -72,7 +72,7 @@ const Footer_03 = () => {
                   </p>
                   <p>
                     © Copyright {new Date().getFullYear()}, All Rights Reserved
-                    by Mthemeus
+                    by Favdevs
                   </p>
                 </div>
                 {/* Footer Widget Item */}
@@ -189,7 +189,7 @@ const Footer_03 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
                           <Image
-                            src='/assets/img/th-1/facebook-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/facebook-icon-white.svg'
                             alt='facebook-icon-white'
                             width={14}
                             height={14}
@@ -206,7 +206,7 @@ const Footer_03 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
                           <Image
-                            src='/assets/img/th-1/twitter-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/twitter-icon-white.svg'
                             alt='twitter-icon-white'
                             width={14}
                             height={14}
@@ -223,7 +223,7 @@ const Footer_03 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
                           <Image
-                            src='/assets/img/th-1/instagram-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/instagram-icon-white.svg'
                             alt='instagram-icon-white'
                             width={14}
                             height={14}
@@ -240,7 +240,7 @@ const Footer_03 = () => {
                       >
                         <div className='flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-white bg-opacity-10 transition-all duration-300 group-hover:bg-colorViolet'>
                           <Image
-                            src='/assets/img/th-1/linkedin-icon-white.svg'
+                            src='/assets/img_placeholder/th-1/linkedin-icon-white.svg'
                             alt='linkedin-icon-white'
                             width={14}
                             height={14}

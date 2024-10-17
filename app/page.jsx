@@ -55,7 +55,7 @@ function Home() {
                 data-jos_animation='zoom'
               >
                 <Image
-                  src='/assets/img/th-1/hero-dashboard.jpg'
+                  src='/assets/img_placeholder/th-1/hero-dashboard.jpg'
                   alt='hero-dashboard'
                   width='1296'
                   height='640'
@@ -93,7 +93,7 @@ function Home() {
                 >
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-1.png'
+                      src='/assets/img_placeholder/th-1/brand-1.png'
                       alt='brand-1'
                       width='180'
                       height='38'
@@ -102,7 +102,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-2.png'
+                      src='/assets/img_placeholder/th-1/brand-2.png'
                       alt='brand-2'
                       width='183'
                       height='35'
@@ -111,7 +111,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-3.png'
+                      src='/assets/img_placeholder/th-1/brand-3.png'
                       alt='brand-3'
                       width='172'
                       height='35'
@@ -120,7 +120,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-4.png'
+                      src='/assets/img_placeholder/th-1/brand-4.png'
                       alt='brand-4'
                       width='175'
                       height='30'
@@ -129,7 +129,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-5.png'
+                      src='/assets/img_placeholder/th-1/brand-5.png'
                       alt='brand-5'
                       width='168'
                       height='36'
@@ -138,7 +138,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-1.png'
+                      src='/assets/img_placeholder/th-1/brand-1.png'
                       alt='brand-1'
                       width='180'
                       height='38'
@@ -147,7 +147,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-2.png'
+                      src='/assets/img_placeholder/th-1/brand-2.png'
                       alt='brand-2'
                       width='183'
                       height='35'
@@ -156,7 +156,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-3.png'
+                      src='/assets/img_placeholder/th-1/brand-3.png'
                       alt='brand-3'
                       width='172'
                       height='35'
@@ -165,7 +165,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-4.png'
+                      src='/assets/img_placeholder/th-1/brand-4.png'
                       alt='brand-4'
                       width='175'
                       height='30'
@@ -174,7 +174,7 @@ function Home() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <Image
-                      src='/assets/img/th-1/brand-5.png'
+                      src='/assets/img_placeholder/th-1/brand-5.png'
                       alt='brand-5'
                       width='168'
                       height='36'
@@ -210,13 +210,13 @@ function Home() {
                 <li className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black'>
                   <div className='relative mb-9 h-[70px] w-[70px]'>
                     <Image
-                      src='/assets/img/th-1/service-icon-black-1.svg'
+                      src='/assets/img_placeholder/th-1/service-icon-black-1.svg'
                       alt=''
                       width='70'
                       height='70'
                     />
                     <Image
-                      src='/assets/img/th-1/service-icon-orange-1.svg'
+                      src='/assets/img_placeholder/th-1/service-icon-orange-1.svg'
                       alt='service-icon-orange-1'
                       width='70'
                       height='70'
@@ -242,13 +242,13 @@ function Home() {
                     className='relative inline-block h-[30px] w-[30px] duration-300'
                   >
                     <Image
-                      src='/assets/img/th-1/arrow-right-black.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-black.svg'
                       alt='arrow-right-black'
                       width='30'
                       height='30'
                     />
                     <Image
-                      src='/assets/img/th-1/arrow-right-orange.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-orange.svg'
                       alt='arrow-right-black'
                       width='30'
                       height='30'
@@ -261,13 +261,13 @@ function Home() {
                 <li className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black'>
                   <div className='relative mb-9 h-[70px] w-[70px]'>
                     <Image
-                      src='/assets/img/th-1/service-icon-black-2.svg'
+                      src='/assets/img_placeholder/th-1/service-icon-black-2.svg'
                       alt='service-icon-black-2'
                       width='70'
                       height='70'
                     />
                     <Image
-                      src='/assets/img/th-1/service-icon-orange-2.svg'
+                      src='/assets/img_placeholder/th-1/service-icon-orange-2.svg'
                       alt='service-icon-orange-1'
                       width='70'
                       height='70'
@@ -294,13 +294,13 @@ function Home() {
                     className='relative inline-block h-[30px] w-[30px] duration-300'
                   >
                     <Image
-                      src='/assets/img/th-1/arrow-right-black.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-black.svg'
                       alt='arrow-right-black'
                       width='30'
                       height='30'
                     />
                     <Image
-                      src='/assets/img/th-1/arrow-right-orange.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-orange.svg'
                       alt='arrow-right-black'
                       width='30'
                       height='30'
@@ -315,13 +315,13 @@ function Home() {
                 <li className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black'>
                   <div className='relative mb-9 h-[70px] w-[70px]'>
                     <Image
-                      src='/assets/img/th-1/service-icon-black-3.svg'
+                      src='/assets/img_placeholder/th-1/service-icon-black-3.svg'
                       alt='service-icon-black-3'
                       width='70'
                       height='70'
                     />
                     <Image
-                      src='/assets/img/th-1/service-icon-orange-3.svg'
+                      src='/assets/img_placeholder/th-1/service-icon-orange-3.svg'
                       alt='service-icon-orange-3'
                       width='70'
                       height='70'
@@ -347,13 +347,13 @@ function Home() {
                     className='relative inline-block h-[30px] w-[30px] duration-300'
                   >
                     <Image
-                      src='/assets/img/th-1/arrow-right-black.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-black.svg'
                       alt='arrow-right-black'
                       width='30'
                       height='30'
                     />
                     <Image
-                      src='/assets/img/th-1/arrow-right-orange.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-orange.svg'
                       alt='arrow-right-black'
                       width='30'
                       height='30'
@@ -366,13 +366,13 @@ function Home() {
                 <li className='group bg-white p-[30px] transition-all duration-300 ease-in-out hover:bg-black'>
                   <div className='relative mb-9 h-[70px] w-[70px]'>
                     <Image
-                      src='/assets/img/th-1/service-icon-black-4.svg'
+                      src='/assets/img_placeholder/th-1/service-icon-black-4.svg'
                       alt='service-icon-black-4'
                       width='70'
                       height='70'
                     />
                     <Image
-                      src='/assets/img/th-1/service-icon-orange-4.svg'
+                      src='/assets/img_placeholder/th-1/service-icon-orange-4.svg'
                       alt='service-icon-orange-4'
                       width='70'
                       height='70'
@@ -398,13 +398,13 @@ function Home() {
                     className='relative inline-block h-[30px] w-[30px] duration-300'
                   >
                     <Image
-                      src='/assets/img/th-1/arrow-right-black.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-black.svg'
                       alt='arrow-right-black'
                       width='30'
                       height='30'
                     />
                     <Image
-                      src='/assets/img/th-1/arrow-right-orange.svg'
+                      src='/assets/img_placeholder/th-1/arrow-right-orange.svg'
                       alt='arrow-right-black'
                       width='30'
                       height='30'
@@ -435,7 +435,7 @@ function Home() {
                   data-jos_animation='fade-left'
                 >
                   <Image
-                    src='/assets/img/th-1/content-image-1.jpg'
+                    src='/assets/img_placeholder/th-1/content-image-1.jpg'
                     alt='content-image-1'
                     width='526'
                     height='450'
@@ -488,7 +488,7 @@ function Home() {
                   data-jos_animation='fade-left'
                 >
                   <Image
-                    src='/assets/img/th-1/content-image-2.jpg'
+                    src='/assets/img_placeholder/th-1/content-image-2.jpg'
                     alt='content-image-2'
                     width='526'
                     height='450'
@@ -514,7 +514,7 @@ function Home() {
                       <li className='flex items-start gap-x-3'>
                         <div className='mt-[2.5px] h-[30px] w-[30px]'>
                           <Image
-                            src='/assets/img/th-1/check-circle.svg'
+                            src='/assets/img_placeholder/th-1/check-circle.svg'
                             alt='check-circle'
                             width='30'
                             height='30'
@@ -526,7 +526,7 @@ function Home() {
                       <li className='flex items-start gap-x-3'>
                         <div className='mt-[2.5px] h-[30px] w-[30px]'>
                           <Image
-                            src='/assets/img/th-1/check-circle.svg'
+                            src='/assets/img_placeholder/th-1/check-circle.svg'
                             alt='check-circle'
                             width='30'
                             height='30'
@@ -538,7 +538,7 @@ function Home() {
                       <li className='flex items-start gap-x-3'>
                         <div className='mt-[2.5px] h-[30px] w-[30px]'>
                           <Image
-                            src='/assets/img/th-1/check-circle.svg'
+                            src='/assets/img_placeholder/th-1/check-circle.svg'
                             alt='check-circle'
                             width='30'
                             height='30'
@@ -566,7 +566,7 @@ function Home() {
               {/* Funfact Left Block */}
               <div className='relative overflow-hidden rounded-[30px] lg:rounded-[50px]'>
                 <Image
-                  src='/assets/img/th-1/funfact-image.jpg'
+                  src='/assets/img_placeholder/th-1/funfact-image.jpg'
                   alt='funfact-image'
                   width='721'
                   height='784'
@@ -967,7 +967,7 @@ function Home() {
                         <p>How do I start AI SaaS?</p>
                         <div className='accordion-icon'>
                           <Image
-                            src='/assets/img/plus.svg'
+                            src='/assets/img_placeholder/plus.svg'
                             width={24}
                             height={24}
                             alt='plus'
@@ -994,7 +994,7 @@ function Home() {
                         <p>Can I customize AI SaaS solutions?</p>
                         <div className='accordion-icon'>
                           <Image
-                            src='/assets/img/plus.svg'
+                            src='/assets/img_placeholder/plus.svg'
                             width={24}
                             height={24}
                             alt='plus'
@@ -1021,7 +1021,7 @@ function Home() {
                         <p>How can AI benefit my business?</p>
                         <div className='accordion-icon'>
                           <Image
-                            src='/assets/img/plus.svg'
+                            src='/assets/img_placeholder/plus.svg'
                             width={24}
                             height={24}
                             alt='plus'
@@ -1074,7 +1074,7 @@ function Home() {
                 >
                   <div className='block'>
                     <Image
-                      src='/assets/img/th-1/rating.svg'
+                      src='/assets/img_placeholder/th-1/rating.svg'
                       alt='rating'
                       width='146'
                       height='25'
@@ -1087,7 +1087,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img/th-1/testimonial-img-1.jpg'
+                        src='/assets/img_placeholder/th-1/testimonial-img-1.jpg'
                         alt='testimonial-img'
                         width='60'
                         height='60'
@@ -1113,7 +1113,7 @@ function Home() {
                 >
                   <div className='block'>
                     <Image
-                      src='/assets/img/th-1/rating.svg'
+                      src='/assets/img_placeholder/th-1/rating.svg'
                       alt='rating'
                       width='146'
                       height='25'
@@ -1127,7 +1127,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img/th-1/testimonial-img-2.jpg'
+                        src='/assets/img_placeholder/th-1/testimonial-img-2.jpg'
                         alt='testimonial-img'
                         width='60'
                         height='60'
@@ -1153,7 +1153,7 @@ function Home() {
                 >
                   <div className='block'>
                     <Image
-                      src='/assets/img/th-1/rating.svg'
+                      src='/assets/img_placeholder/th-1/rating.svg'
                       alt='rating'
                       width='146'
                       height='25'
@@ -1167,7 +1167,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img/th-1/testimonial-img-3.jpg'
+                        src='/assets/img_placeholder/th-1/testimonial-img-3.jpg'
                         alt='testimonial-img'
                         width='60'
                         height='60'
@@ -1193,7 +1193,7 @@ function Home() {
                 >
                   <div className='block'>
                     <Image
-                      src='/assets/img/th-1/rating.svg'
+                      src='/assets/img_placeholder/th-1/rating.svg'
                       alt='rating'
                       width='146'
                       height='25'
@@ -1207,7 +1207,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img/th-1/testimonial-img-4.jpg'
+                        src='/assets/img_placeholder/th-1/testimonial-img-4.jpg'
                         alt='testimonial-img'
                         width='60'
                         height='60'
@@ -1233,7 +1233,7 @@ function Home() {
                 >
                   <div className='block'>
                     <Image
-                      src='/assets/img/th-1/rating.svg'
+                      src='/assets/img_placeholder/th-1/rating.svg'
                       alt='rating'
                       width='146'
                       height='25'
@@ -1246,7 +1246,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img/th-1/testimonial-img-5.jpg'
+                        src='/assets/img_placeholder/th-1/testimonial-img-5.jpg'
                         alt='testimonial-img'
                         width='60'
                         height='60'
@@ -1272,7 +1272,7 @@ function Home() {
                 >
                   <div className='block'>
                     <Image
-                      src='/assets/img/th-1/rating.svg'
+                      src='/assets/img_placeholder/th-1/rating.svg'
                       alt='rating'
                       width='146'
                       height='25'
@@ -1285,7 +1285,7 @@ function Home() {
                   <div className='flex items-center gap-x-4'>
                     <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                       <Image
-                        src='/assets/img/th-1/testimonial-img-6.jpg'
+                        src='/assets/img_placeholder/th-1/testimonial-img-6.jpg'
                         alt='testimonial-img'
                         width='60'
                         height='60'

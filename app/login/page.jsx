@@ -66,7 +66,7 @@ function Login() {
 												<div className="flex gap-x-8 gap-y-[10px]">
 													<input
 														type="checkbox"
-														className="relative appearance-none text-base after:absolute after:left-0 after:top-[6px] after:h-4 after:w-4 after:rounded-[3px] after:border after:border-[#7F8995] after:bg-white after:text-white after:transition-all after:delay-300 checked:after:border-colorOrangyRed checked:after:bg-colorOrangyRed checked:after:bg-[url(/assets/img/th-1/icon-white-checkmark-filled.svg)]"
+														className="relative appearance-none text-base after:absolute after:left-0 after:top-[6px] after:h-4 after:w-4 after:rounded-[3px] after:border after:border-[#7F8995] after:bg-white after:text-white after:transition-all after:delay-300 checked:after:border-colorOrangyRed checked:after:bg-colorOrangyRed checked:after:bg-[url(/assets/img_placeholder/th-1/icon-white-checkmark-filled.svg)]"
 														name="login-check"
 														id="login-check"
 														required=""
@@ -108,7 +108,7 @@ function Login() {
 										>
 											<span className="hidden h-6 w-6 sm:inline-block">
 												<Image
-													src="/assets/img/th-1/flat-color-icons-google.svg"
+													src="/assets/img_placeholder/th-1/flat-color-icons-google.svg"
 													alt="flat-color-icons-google"
 													width={24}
 													height={24}
@@ -124,7 +124,7 @@ function Login() {
 										>
 											<span className="hidden h-6 w-6 sm:inline-block">
 												<Image
-													src="/assets/img/th-1/flat-color-icon-facebook.svg"
+													src="/assets/img_placeholder/th-1/flat-color-icon-facebook.svg"
 													alt="flat-color-icon-facebook"
 													width={24}
 													height={24}

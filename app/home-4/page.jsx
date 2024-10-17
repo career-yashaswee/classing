@@ -18,7 +18,7 @@ const Home_4 = () => {
         <section id='hero-section'>
           <div className='relative z-[1] overflow-hidden text-center text-white'>
             {/* Section Spacer */}
-            <div className="bg-[url('/assets/img/th-4/hero-bg.jpg')] bg-cover bg-no-repeat pb-20 pt-28 md:pb-[265px] md:pt-40 lg:pt-44 xl:pt-[224px]">
+            <div className="bg-[url('/assets/img_placeholder/th-4/hero-bg.jpg')] bg-cover bg-no-repeat pb-20 pt-28 md:pb-[265px] md:pt-40 lg:pt-44 xl:pt-[224px]">
               {/* Section Container */}
               <div className='global-container'>
                 <h1 className='jos mb-6 font-spaceGrotesk leading-none -tracking-[3px] text-white'>
@@ -54,7 +54,7 @@ const Home_4 = () => {
                 </form>
                 <div className='jos mt-4 flex items-center justify-center gap-x-[10px] text-center text-base'>
                   <Image
-                    src='/assets/img/th-4/icon-green-badge-check.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-badge-check.svg'
                     alt='icon-green-badge-check.svg'
                     width={20}
                     height={20}
@@ -93,7 +93,7 @@ const Home_4 = () => {
                   <div className='mb-6 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-promo-1.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-promo-1.svg'
                         alt='icon-black-promo'
                         width={50}
                         height={50}
@@ -116,7 +116,7 @@ const Home_4 = () => {
                   <div className='mb-6 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-promo-2.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-promo-2.svg'
                         alt='icon-black-promo'
                         width={50}
                         height={50}
@@ -139,7 +139,7 @@ const Home_4 = () => {
                   <div className='mb-6 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-promo-3.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-promo-3.svg'
                         alt='icon-black-promo'
                         width={50}
                         height={50}
@@ -171,7 +171,7 @@ const Home_4 = () => {
                 <div className='jos' data-jos_animation='fade-left'>
                   <div className='overflow-hidden rounded-[10px]'>
                     <Image
-                      src='/assets/img/th-4/content-img-1.jpg'
+                      src='/assets/img_placeholder/th-4/content-img-1.jpg'
                       alt='content-img-2'
                       width={550}
                       height={550}
@@ -224,7 +224,7 @@ const Home_4 = () => {
                 <div className='jos order-2' data-jos_animation='fade-left'>
                   <div className='overflow-hidden rounded-[10px]'>
                     <Image
-                      src='/assets/img/th-4/content-img-2.jpg'
+                      src='/assets/img_placeholder/th-4/content-img-2.jpg'
                       alt='content-img-2'
                       width={550}
                       height={550}
@@ -251,7 +251,7 @@ const Home_4 = () => {
                       <li className='flex items-start gap-x-3'>
                         <div className='mt-[2.5px] h-[30px] w-[30px]'>
                           <Image
-                            src='/assets/img/th-4/icon-green-badge-check.svg'
+                            src='/assets/img_placeholder/th-4/icon-green-badge-check.svg'
                             alt='check-circle'
                             width={30}
                             height={30}
@@ -263,7 +263,7 @@ const Home_4 = () => {
                       <li className='flex items-start gap-x-3'>
                         <div className='mt-[2.5px] h-[30px] w-[30px]'>
                           <Image
-                            src='/assets/img/th-4/icon-green-badge-check.svg'
+                            src='/assets/img_placeholder/th-4/icon-green-badge-check.svg'
                             alt='check-circle'
                             width={30}
                             height={30}
@@ -275,7 +275,7 @@ const Home_4 = () => {
                       <li className='flex items-start gap-x-3'>
                         <div className='mt-[2.5px] h-[30px] w-[30px]'>
                           <Image
-                            src='/assets/img/th-4/icon-green-badge-check.svg'
+                            src='/assets/img_placeholder/th-4/icon-green-badge-check.svg'
                             alt='check-circle'
                             width={30}
                             height={30}
@@ -322,7 +322,7 @@ const Home_4 = () => {
                   <div className='mb-8 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-service-1.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-service-1.svg'
                         alt='icon-green-service'
                         width={50}
                         height={50}
@@ -342,14 +342,14 @@ const Home_4 = () => {
                     className='relative flex h-[30px] w-[30px] items-center justify-center overflow-hidden'
                   >
                     <Image
-                      src='/assets/img/th-4/icon-white-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-white-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
                       className='relative left-0 transition-all duration-300 group-hover:left-full'
                     />
                     <Image
-                      src='/assets/img/th-4/icon-green-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-green-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
@@ -366,7 +366,7 @@ const Home_4 = () => {
                   <div className='mb-8 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-service-2.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-service-2.svg'
                         alt='icon-green-service'
                         width={50}
                         height={50}
@@ -386,14 +386,14 @@ const Home_4 = () => {
                     className='relative flex h-[30px] w-[30px] items-center justify-center overflow-hidden'
                   >
                     <Image
-                      src='/assets/img/th-4/icon-white-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-white-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
                       className='relative left-0 transition-all duration-300 group-hover:left-full'
                     />
                     <Image
-                      src='/assets/img/th-4/icon-green-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-green-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
@@ -410,7 +410,7 @@ const Home_4 = () => {
                   <div className='mb-8 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-service-3.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-service-3.svg'
                         alt='icon-green-service'
                         width={50}
                         height={50}
@@ -430,14 +430,14 @@ const Home_4 = () => {
                     className='relative flex h-[30px] w-[30px] items-center justify-center overflow-hidden'
                   >
                     <Image
-                      src='/assets/img/th-4/icon-white-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-white-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
                       className='relative left-0 transition-all duration-300 group-hover:left-full'
                     />
                     <Image
-                      src='/assets/img/th-4/icon-green-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-green-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
@@ -454,7 +454,7 @@ const Home_4 = () => {
                   <div className='mb-8 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-service-4.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-service-4.svg'
                         alt='icon-green-service'
                         width={50}
                         height={50}
@@ -474,14 +474,14 @@ const Home_4 = () => {
                     className='relative flex h-[30px] w-[30px] items-center justify-center overflow-hidden'
                   >
                     <Image
-                      src='/assets/img/th-4/icon-white-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-white-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
                       className='relative left-0 transition-all duration-300 group-hover:left-full'
                     />
                     <Image
-                      src='/assets/img/th-4/icon-green-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-green-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
@@ -498,7 +498,7 @@ const Home_4 = () => {
                   <div className='mb-8 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-service-5.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-service-5.svg'
                         alt='icon-green-service'
                         width={50}
                         height={50}
@@ -518,14 +518,14 @@ const Home_4 = () => {
                     className='relative flex h-[30px] w-[30px] items-center justify-center overflow-hidden'
                   >
                     <Image
-                      src='/assets/img/th-4/icon-white-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-white-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
                       className='relative left-0 transition-all duration-300 group-hover:left-full'
                     />
                     <Image
-                      src='/assets/img/th-4/icon-green-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-green-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
@@ -542,7 +542,7 @@ const Home_4 = () => {
                   <div className='mb-8 flex items-center gap-x-6'>
                     <div className='h-[50px] w-[50px]'>
                       <Image
-                        src='/assets/img/th-4/icon-green-service-6.svg'
+                        src='/assets/img_placeholder/th-4/icon-green-service-6.svg'
                         alt='icon-green-service'
                         width={50}
                         height={50}
@@ -562,14 +562,14 @@ const Home_4 = () => {
                     className='relative flex h-[30px] w-[30px] items-center justify-center overflow-hidden'
                   >
                     <Image
-                      src='/assets/img/th-4/icon-white-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-white-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
                       className='relative left-0 transition-all duration-300 group-hover:left-full'
                     />
                     <Image
-                      src='/assets/img/th-4/icon-green-arrow-right.svg'
+                      src='/assets/img_placeholder/th-4/icon-green-arrow-right.svg'
                       alt='icon-white-arrow-right'
                       width={30}
                       height={30}
@@ -621,7 +621,7 @@ const Home_4 = () => {
                 data-jos_animation='zoom'
               >
                 <Image
-                  src='/assets/img/th-4/video-bg-image.jpg'
+                  src='/assets/img_placeholder/th-4/video-bg-image.jpg'
                   alt='video-bg-image'
                   width={1296}
                   height={600}
@@ -675,7 +675,7 @@ const Home_4 = () => {
                     >
                       <div className='mb-3 flex items-center gap-x-6'>
                         <Image
-                          src='/assets/img/th-4/icon-green-process-accordion-1.svg'
+                          src='/assets/img_placeholder/th-4/icon-green-process-accordion-1.svg'
                           alt='icon-green-process-accordion'
                           width={36}
                           height={50}
@@ -687,13 +687,13 @@ const Home_4 = () => {
                       </div>
                       <div className='accordion-icon is-chevron'>
                         <Image
-                          src='/assets/img/th-4/icon-white-cheveron-down.svg'
+                          src='/assets/img_placeholder/th-4/icon-white-cheveron-down.svg'
                           alt='chevron'
                           width={30}
                           height={30}
                         />
                         <Image
-                          src='/assets/img/th-4/icon-green-cheveron-up.svg'
+                          src='/assets/img_placeholder/th-4/icon-green-cheveron-up.svg'
                           alt='chevron'
                           width={30}
                           height={30}
@@ -722,7 +722,7 @@ const Home_4 = () => {
                     >
                       <div className='mb-3 flex items-center gap-x-6'>
                         <Image
-                          src='/assets/img/th-4/icon-green-process-accordion-2.svg'
+                          src='/assets/img_placeholder/th-4/icon-green-process-accordion-2.svg'
                           alt='icon-green-process-accordion'
                           width={36}
                           height={50}
@@ -734,13 +734,13 @@ const Home_4 = () => {
                       </div>
                       <div className='accordion-icon is-chevron'>
                         <Image
-                          src='/assets/img/th-4/icon-white-cheveron-down.svg'
+                          src='/assets/img_placeholder/th-4/icon-white-cheveron-down.svg'
                           alt='chevron'
                           width={30}
                           height={30}
                         />
                         <Image
-                          src='/assets/img/th-4/icon-green-cheveron-up.svg'
+                          src='/assets/img_placeholder/th-4/icon-green-cheveron-up.svg'
                           alt='chevron'
                           width={30}
                           height={30}
@@ -769,7 +769,7 @@ const Home_4 = () => {
                     >
                       <div className='mb-3 flex items-center gap-x-6'>
                         <Image
-                          src='/assets/img/th-4/icon-green-process-accordion-3.svg'
+                          src='/assets/img_placeholder/th-4/icon-green-process-accordion-3.svg'
                           alt='icon-green-process-accordion'
                           width={36}
                           height={50}
@@ -781,13 +781,13 @@ const Home_4 = () => {
                       </div>
                       <div className='accordion-icon is-chevron'>
                         <Image
-                          src='/assets/img/th-4/icon-white-cheveron-down.svg'
+                          src='/assets/img_placeholder/th-4/icon-white-cheveron-down.svg'
                           alt='chevron'
                           width={30}
                           height={30}
                         />
                         <Image
-                          src='/assets/img/th-4/icon-green-cheveron-up.svg'
+                          src='/assets/img_placeholder/th-4/icon-green-cheveron-up.svg'
                           alt='chevron'
                           width={30}
                           height={30}
@@ -1082,7 +1082,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1095,7 +1095,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-1.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-1.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}
@@ -1117,7 +1117,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1130,7 +1130,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-2.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-2.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}
@@ -1152,7 +1152,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1165,7 +1165,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-3.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-3.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}
@@ -1187,7 +1187,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1201,7 +1201,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-4.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-4.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}
@@ -1223,7 +1223,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1236,7 +1236,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-5.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-5.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}
@@ -1258,7 +1258,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1271,7 +1271,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-6.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-6.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}
@@ -1293,7 +1293,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1306,7 +1306,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-1.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-1.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}
@@ -1328,7 +1328,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1341,7 +1341,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-2.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-2.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}
@@ -1363,7 +1363,7 @@ const Home_4 = () => {
               <div className='flex w-[415px] flex-col gap-y-8 rounded-[10px] border-[1px] border-colorCodGray p-[30px] text-white'>
                 <div className='block'>
                   <Image
-                    src='/assets/img/th-4/icon-green-rating.svg'
+                    src='/assets/img_placeholder/th-4/icon-green-rating.svg'
                     alt='rating'
                     width={146}
                     height={25}
@@ -1376,7 +1376,7 @@ const Home_4 = () => {
                 <div className='flex items-center gap-x-4'>
                   <div className='h-[60px] w-[60px] overflow-hidden rounded-full'>
                     <Image
-                      src='/assets/img/th-1/testimonial-img-3.jpg'
+                      src='/assets/img_placeholder/th-1/testimonial-img-3.jpg'
                       alt='testimonial-img'
                       width={60}
                       height={60}

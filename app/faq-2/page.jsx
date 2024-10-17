@@ -108,7 +108,7 @@ const Faq_2 = () => {
 													<h5>What is Artificial Intelligence (AI)?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -138,7 +138,7 @@ const Faq_2 = () => {
 													<h5>What are the different types of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -168,7 +168,7 @@ const Faq_2 = () => {
 													<h5>What are some practical applications of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -201,7 +201,7 @@ const Faq_2 = () => {
 													</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -233,7 +233,7 @@ const Faq_2 = () => {
 													</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -263,7 +263,7 @@ const Faq_2 = () => {
 													<h5>Can AI replace humans in the workforce?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -293,7 +293,7 @@ const Faq_2 = () => {
 													<h5>Is AI safe?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -323,7 +323,7 @@ const Faq_2 = () => {
 													<h5>What is the future of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -366,7 +366,7 @@ const Faq_2 = () => {
 													</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -396,7 +396,7 @@ const Faq_2 = () => {
 													<h5>Can AI replace humans in the workforce?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -426,7 +426,7 @@ const Faq_2 = () => {
 													<h5>Is AI safe?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -456,7 +456,7 @@ const Faq_2 = () => {
 													<h5>What is the future of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -486,7 +486,7 @@ const Faq_2 = () => {
 													<h5>What is Artificial Intelligence (AI)?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -516,7 +516,7 @@ const Faq_2 = () => {
 													<h5>What are the different types of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -546,7 +546,7 @@ const Faq_2 = () => {
 													<h5>What are some practical applications of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -579,7 +579,7 @@ const Faq_2 = () => {
 													</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -619,7 +619,7 @@ const Faq_2 = () => {
 													<h5>What is Artificial Intelligence (AI)?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -649,7 +649,7 @@ const Faq_2 = () => {
 													<h5>What are the different types of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -679,7 +679,7 @@ const Faq_2 = () => {
 													<h5>What are some practical applications of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -712,7 +712,7 @@ const Faq_2 = () => {
 													</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -744,7 +744,7 @@ const Faq_2 = () => {
 													</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -774,7 +774,7 @@ const Faq_2 = () => {
 													<h5>Can AI replace humans in the workforce?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -804,7 +804,7 @@ const Faq_2 = () => {
 													<h5>Is AI safe?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -834,7 +834,7 @@ const Faq_2 = () => {
 													<h5>What is the future of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -877,7 +877,7 @@ const Faq_2 = () => {
 													</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -907,7 +907,7 @@ const Faq_2 = () => {
 													<h5>Can AI replace humans in the workforce?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -937,7 +937,7 @@ const Faq_2 = () => {
 													<h5>Is AI safe?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -967,7 +967,7 @@ const Faq_2 = () => {
 													<h5>What is the future of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -997,7 +997,7 @@ const Faq_2 = () => {
 													<h5>What is Artificial Intelligence (AI)?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -1027,7 +1027,7 @@ const Faq_2 = () => {
 													<h5>What are the different types of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -1057,7 +1057,7 @@ const Faq_2 = () => {
 													<h5>What are some practical applications of AI?</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -1090,7 +1090,7 @@ const Faq_2 = () => {
 													</h5>
 													<div className="accordion-icon">
 														<Image
-															src="/assets/img/plus.svg"
+															src="/assets/img_placeholder/plus.svg"
 															width={24}
 															height={24}
 															alt="plus"
@@ -1133,7 +1133,7 @@ const Faq_2 = () => {
 									data-jos_animation="fade-left"
 								>
 									<Image
-										src="/assets/img/th-1/about-contact-img.jpg"
+										src="/assets/img_placeholder/th-1/about-contact-img.jpg"
 										alt="about-contact-img"
 										width={526}
 										height={550}

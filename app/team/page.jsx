@@ -52,7 +52,7 @@ function Team() {
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
-											src="/assets/img/th-1/team-member-img-1.jpg"
+											src="/assets/img_placeholder/th-1/team-member-img-1.jpg"
 											alt="team-member-img-1"
 											width={376}
 											height={400}
@@ -76,14 +76,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/facebook-icon-white.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
 															alt="facebook"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/facebook-icon-black.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-black.svg"
 															alt="facebook"
 															width={14}
 															height={14}
@@ -98,14 +98,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/twitter-icon-white.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
 															alt="twitter"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/twitter-icon-black.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-black.svg"
 															alt="twitter"
 															width={14}
 															height={14}
@@ -120,14 +120,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-white.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-black.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-black.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
@@ -142,14 +142,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/instagram-icon-white.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
 															alt="instagram"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/instagram-icon-black.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-black.svg"
 															alt="instagram"
 															width={14}
 															height={14}
@@ -170,7 +170,7 @@ function Team() {
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
-											src="/assets/img/th-1/team-member-img-2.jpg"
+											src="/assets/img_placeholder/th-1/team-member-img-2.jpg"
 											alt="team-member-img-2"
 											width={376}
 											height={400}
@@ -194,14 +194,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/facebook-icon-white.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
 															alt="facebook"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/facebook-icon-black.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-black.svg"
 															alt="facebook"
 															width={14}
 															height={14}
@@ -216,14 +216,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/twitter-icon-white.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
 															alt="twitter"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/twitter-icon-black.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-black.svg"
 															alt="twitter"
 															width={14}
 															height={14}
@@ -238,14 +238,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-white.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-black.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-black.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
@@ -260,14 +260,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/instagram-icon-white.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
 															alt="instagram"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/instagram-icon-black.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-black.svg"
 															alt="instagram"
 															width={14}
 															height={14}
@@ -288,7 +288,7 @@ function Team() {
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
-											src="/assets/img/th-1/team-member-img-3.jpg"
+											src="/assets/img_placeholder/th-1/team-member-img-3.jpg"
 											alt="team-member-img-3"
 											width={376}
 											height={400}
@@ -312,14 +312,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/facebook-icon-white.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
 															alt="facebook"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/facebook-icon-black.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-black.svg"
 															alt="facebook"
 															width={14}
 															height={14}
@@ -334,14 +334,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/twitter-icon-white.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
 															alt="twitter"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/twitter-icon-black.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-black.svg"
 															alt="twitter"
 															width={14}
 															height={14}
@@ -356,14 +356,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-white.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-black.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-black.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
@@ -378,14 +378,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/instagram-icon-white.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
 															alt="instagram"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/instagram-icon-black.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-black.svg"
 															alt="instagram"
 															width={14}
 															height={14}
@@ -406,7 +406,7 @@ function Team() {
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
-											src="/assets/img/th-1/team-member-img-4.jpg"
+											src="/assets/img_placeholder/th-1/team-member-img-4.jpg"
 											alt="team-member-img-4"
 											width={376}
 											height={400}
@@ -430,14 +430,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/facebook-icon-white.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
 															alt="facebook"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/facebook-icon-black.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-black.svg"
 															alt="facebook"
 															width={14}
 															height={14}
@@ -452,14 +452,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/twitter-icon-white.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
 															alt="twitter"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/twitter-icon-black.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-black.svg"
 															alt="twitter"
 															width={14}
 															height={14}
@@ -474,14 +474,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-white.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-black.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-black.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
@@ -496,14 +496,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/instagram-icon-white.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
 															alt="instagram"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/instagram-icon-black.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-black.svg"
 															alt="instagram"
 															width={14}
 															height={14}
@@ -524,7 +524,7 @@ function Team() {
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
-											src="/assets/img/th-1/team-member-img-5.jpg"
+											src="/assets/img_placeholder/th-1/team-member-img-5.jpg"
 											alt="team-member-img-5"
 											width={376}
 											height={400}
@@ -548,14 +548,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/facebook-icon-white.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
 															alt="facebook"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/facebook-icon-black.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-black.svg"
 															alt="facebook"
 															width={14}
 															height={14}
@@ -570,14 +570,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/twitter-icon-white.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
 															alt="twitter"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/twitter-icon-black.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-black.svg"
 															alt="twitter"
 															width={14}
 															height={14}
@@ -592,14 +592,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-white.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-black.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-black.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
@@ -614,14 +614,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/instagram-icon-white.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
 															alt="instagram"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/instagram-icon-black.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-black.svg"
 															alt="instagram"
 															width={14}
 															height={14}
@@ -642,7 +642,7 @@ function Team() {
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
-											src="/assets/img/th-1/team-member-img-6.jpg"
+											src="/assets/img_placeholder/th-1/team-member-img-6.jpg"
 											alt="team-member-img-6"
 											width={376}
 											height={400}
@@ -666,14 +666,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/facebook-icon-white.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
 															alt="facebook"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/facebook-icon-black.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-black.svg"
 															alt="facebook"
 															width={14}
 															height={14}
@@ -688,14 +688,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/twitter-icon-white.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
 															alt="twitter"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/twitter-icon-black.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-black.svg"
 															alt="twitter"
 															width={14}
 															height={14}
@@ -710,14 +710,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-white.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-black.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-black.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
@@ -732,14 +732,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/instagram-icon-white.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
 															alt="instagram"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/instagram-icon-black.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-black.svg"
 															alt="instagram"
 															width={14}
 															height={14}
@@ -760,7 +760,7 @@ function Team() {
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
-											src="/assets/img/th-1/team-member-img-7.jpg"
+											src="/assets/img_placeholder/th-1/team-member-img-7.jpg"
 											alt="team-member-img-7"
 											width={376}
 											height={400}
@@ -784,14 +784,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/facebook-icon-white.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
 															alt="facebook"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/facebook-icon-black.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-black.svg"
 															alt="facebook"
 															width={14}
 															height={14}
@@ -806,14 +806,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/twitter-icon-white.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
 															alt="twitter"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/twitter-icon-black.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-black.svg"
 															alt="twitter"
 															width={14}
 															height={14}
@@ -828,14 +828,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-white.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-black.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-black.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
@@ -850,14 +850,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/instagram-icon-white.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
 															alt="instagram"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/instagram-icon-black.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-black.svg"
 															alt="instagram"
 															width={14}
 															height={14}
@@ -878,7 +878,7 @@ function Team() {
 								>
 									<div className="xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]">
 										<Image
-											src="/assets/img/th-1/team-member-img-8.jpg"
+											src="/assets/img_placeholder/th-1/team-member-img-8.jpg"
 											alt="team-member-img-8"
 											width={376}
 											height={400}
@@ -902,14 +902,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/facebook-icon-white.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-white.svg"
 															alt="facebook"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/facebook-icon-black.svg"
+															src="/assets/img_placeholder/th-1/facebook-icon-black.svg"
 															alt="facebook"
 															width={14}
 															height={14}
@@ -924,14 +924,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/twitter-icon-white.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-white.svg"
 															alt="twitter"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/twitter-icon-black.svg"
+															src="/assets/img_placeholder/th-1/twitter-icon-black.svg"
 															alt="twitter"
 															width={14}
 															height={14}
@@ -946,14 +946,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-white.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-white.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/linkedin-icon-black.svg"
+															src="/assets/img_placeholder/th-1/linkedin-icon-black.svg"
 															alt="linkedin"
 															width={14}
 															height={14}
@@ -968,14 +968,14 @@ function Team() {
 														className="group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed"
 													>
 														<Image
-															src="/assets/img/th-1/instagram-icon-white.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-white.svg"
 															alt="instagram"
 															width={14}
 															height={14}
 															className="opacity-100 group-hover:opacity-0"
 														/>
 														<Image
-															src="/assets/img/th-1/instagram-icon-black.svg"
+															src="/assets/img_placeholder/th-1/instagram-icon-black.svg"
 															alt="instagram"
 															width={14}
 															height={14}

@@ -47,7 +47,7 @@ function PortfolioDetails() {
 								data-jos_animation="zoom"
 							>
 								<Image
-									src="/assets/img/th-1/portfolio-main-img.jpg"
+									src="/assets/img_placeholder/th-1/portfolio-main-img.jpg"
 									alt="portfolio-main-img"
 									width={1296}
 									height={550}
@@ -105,7 +105,7 @@ function PortfolioDetails() {
 											Live preview
 											<div className="h-9 w-9">
 												<Image
-													src="/assets/img/th-1/icon-black-long-arrow-right.svg"
+													src="/assets/img_placeholder/th-1/icon-black-long-arrow-right.svg"
 													alt="icon-black-long-arrow-right"
 													width={35}
 													height={35}
@@ -129,7 +129,7 @@ function PortfolioDetails() {
 										data-jos_animation="fade-right"
 									>
 										<Image
-											src="/assets/img/th-1/content-image-5.jpg"
+											src="/assets/img_placeholder/th-1/content-image-5.jpg"
 											alt="content-image-6"
 											width={636}
 											height={400}
@@ -174,7 +174,7 @@ function PortfolioDetails() {
 										data-jos_animation="fade-left"
 									>
 										<Image
-											src="/assets/img/th-1/content-image-6.jpg"
+											src="/assets/img_placeholder/th-1/content-image-6.jpg"
 											alt="content-image-6"
 											width={636}
 											height={400}
@@ -231,7 +231,7 @@ function PortfolioDetails() {
 									data-jos_animation="fade-right"
 								>
 									<Image
-										src="/assets/img/th-1/about-contact-img.jpg"
+										src="/assets/img_placeholder/th-1/about-contact-img.jpg"
 										alt="about-contact-img"
 										width={526}
 										height={550}

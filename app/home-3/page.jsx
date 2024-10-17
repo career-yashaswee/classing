@@ -44,7 +44,7 @@ function Home_3() {
               data-jos_animation='zoom'
             >
               <Image
-                src='/assets/img/th-3/hero-img.jpg'
+                src='/assets/img_placeholder/th-3/hero-img.jpg'
                 alt='hero-img'
                 width={1500}
                 height={700}
@@ -78,7 +78,7 @@ function Home_3() {
                 >
                   <div className='mx-auto mb-[30px] inline-flex h-10 w-auto justify-center md:justify-normal xxl:h-[60px]'>
                     <Image
-                      src='/assets/img/th-3/icon-black-promo-1.svg'
+                      src='/assets/img_placeholder/th-3/icon-black-promo-1.svg'
                       alt='icon-black-promo-1'
                       width={60}
                       height={60}
@@ -101,7 +101,7 @@ function Home_3() {
                 >
                   <div className='mx-auto mb-[30px] inline-flex h-10 w-auto justify-center md:justify-normal xxl:h-[60px]'>
                     <Image
-                      src='/assets/img/th-3/icon-black-promo-2.svg'
+                      src='/assets/img_placeholder/th-3/icon-black-promo-2.svg'
                       alt='icon-black-promo-1'
                       width={70}
                       height={60}
@@ -124,7 +124,7 @@ function Home_3() {
                 >
                   <div className='mx-auto mb-[30px] inline-flex h-10 w-auto justify-center md:justify-normal xxl:h-[60px]'>
                     <Image
-                      src='/assets/img/th-3/icon-black-promo-3.svg'
+                      src='/assets/img_placeholder/th-3/icon-black-promo-3.svg'
                       alt='icon-black-promo-1'
                       width={67}
                       height={60}
@@ -159,7 +159,7 @@ function Home_3() {
                   <div className='jos' data-jos_animation='fade-left'>
                     <div className='overflow-hidden rounded-[10px]'>
                       <Image
-                        src='/assets/img/th-3/content-img-1.jpg'
+                        src='/assets/img_placeholder/th-3/content-img-1.jpg'
                         alt='content-img-1'
                         width={526}
                         height={550}
@@ -227,7 +227,7 @@ function Home_3() {
                     <div className='order-1 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
                       <div className='h-10 w-auto xxl:h-[60px]'>
                         <Image
-                          src='/assets/img/th-3/icon-black-work-process-1.svg'
+                          src='/assets/img_placeholder/th-3/icon-black-work-process-1.svg'
                           alt='working-process-icon'
                           width={62}
                           height={60}
@@ -247,7 +247,7 @@ function Home_3() {
                         className='h-[30px] w-[30px]'
                       >
                         <Image
-                          src='/assets/img/th-3/icon-white-arrow-right.svg'
+                          src='/assets/img_placeholder/th-3/icon-white-arrow-right.svg'
                           alt='icon-white-arrow-right'
                           width={30}
                           height={30}
@@ -259,7 +259,7 @@ function Home_3() {
                     <div className='order-2 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
                       <div className='h-10 w-auto xxl:h-[60px]'>
                         <Image
-                          src='/assets/img/th-3/icon-black-work-process-2.svg'
+                          src='/assets/img_placeholder/th-3/icon-black-work-process-2.svg'
                           alt='working-process-icon'
                           width={60}
                           height={60}
@@ -279,7 +279,7 @@ function Home_3() {
                         className='h-[30px] w-[30px]'
                       >
                         <Image
-                          src='/assets/img/th-3/icon-white-arrow-right.svg'
+                          src='/assets/img_placeholder/th-3/icon-white-arrow-right.svg'
                           alt='icon-white-arrow-right'
                           width={30}
                           height={30}
@@ -291,7 +291,7 @@ function Home_3() {
                     <div className='order-3 col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
                       <div className='h-10 w-auto xxl:h-[60px]'>
                         <Image
-                          src='/assets/img/th-3/icon-black-work-process-3.svg'
+                          src='/assets/img_placeholder/th-3/icon-black-work-process-3.svg'
                           alt='working-process-icon'
                           width={60}
                           height={60}
@@ -311,7 +311,7 @@ function Home_3() {
                         className='h-[30px] w-[30px]'
                       >
                         <Image
-                          src='/assets/img/th-3/icon-white-arrow-right.svg'
+                          src='/assets/img_placeholder/th-3/icon-white-arrow-right.svg'
                           alt='icon-white-arrow-right'
                           width={30}
                           height={30}
@@ -324,7 +324,7 @@ function Home_3() {
                       <div className='col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
                         <div className='h-10 w-auto xxl:h-[60px]'>
                           <Image
-                            src='/assets/img/th-3/icon-black-work-process-4.svg'
+                            src='/assets/img_placeholder/th-3/icon-black-work-process-4.svg'
                             alt='working-process-icon'
                             width={65}
                             height={60}
@@ -344,7 +344,7 @@ function Home_3() {
                           className='h-[30px] w-[30px]'
                         >
                           <Image
-                            src='/assets/img/th-3/icon-white-arrow-right.svg'
+                            src='/assets/img_placeholder/th-3/icon-white-arrow-right.svg'
                             alt='icon-white-arrow-right'
                             width={30}
                             height={30}
@@ -356,7 +356,7 @@ function Home_3() {
                       <div className='col-span-1 flex flex-col gap-y-8 rounded-[10px] bg-[#121212] p-[30px] text-white transition-all duration-300 hover:bg-[#381FD1]'>
                         <div className='h-10 w-auto xxl:h-[60px]'>
                           <Image
-                            src='/assets/img/th-3/icon-black-work-process-5.svg'
+                            src='/assets/img_placeholder/th-3/icon-black-work-process-5.svg'
                             alt='working-process-icon'
                             width={40}
                             height={60}
@@ -376,7 +376,7 @@ function Home_3() {
                           className='h-[30px] w-[30px]'
                         >
                           <Image
-                            src='/assets/img/th-3/icon-white-arrow-right.svg'
+                            src='/assets/img_placeholder/th-3/icon-white-arrow-right.svg'
                             alt='icon-white-arrow-right'
                             width={30}
                             height={30}
@@ -418,7 +418,7 @@ function Home_3() {
                   <div className='jos order-2' data-jos_animation='fade-left'>
                     <div className='overflow-hidden rounded-[10px]'>
                       <Image
-                        src='/assets/img/th-3/content-img-2.jpg'
+                        src='/assets/img_placeholder/th-3/content-img-2.jpg'
                         alt='content-img-2'
                         width={526}
                         height={550}
@@ -493,7 +493,7 @@ function Home_3() {
                   >
                     <div className='xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]'>
                       <Image
-                        src='/assets/img/th-1/team-member-img-1.jpg'
+                        src='/assets/img_placeholder/th-1/team-member-img-1.jpg'
                         alt='team-member-img-1'
                         width={376}
                         height={400}
@@ -517,14 +517,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/facebook-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/facebook-icon-white.svg'
                                 alt='facebook'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/facebook-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/facebook-icon-black.svg'
                                 alt='facebook'
                                 width={14}
                                 height={14}
@@ -539,14 +539,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/twitter-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/twitter-icon-white.svg'
                                 alt='twitter'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/twitter-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/twitter-icon-black.svg'
                                 alt='twitter'
                                 width={14}
                                 height={14}
@@ -561,14 +561,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/linkedin-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/linkedin-icon-white.svg'
                                 alt='linkedin'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/linkedin-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/linkedin-icon-black.svg'
                                 alt='linkedin'
                                 width={14}
                                 height={14}
@@ -583,14 +583,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/instagram-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/instagram-icon-white.svg'
                                 alt='instagram'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/instagram-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/instagram-icon-black.svg'
                                 alt='instagram'
                                 width={14}
                                 height={14}
@@ -611,7 +611,7 @@ function Home_3() {
                   >
                     <div className='xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]'>
                       <Image
-                        src='/assets/img/th-1/team-member-img-2.jpg'
+                        src='/assets/img_placeholder/th-1/team-member-img-2.jpg'
                         alt='team-member-img-2'
                         width={376}
                         height={400}
@@ -635,14 +635,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/facebook-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/facebook-icon-white.svg'
                                 alt='facebook'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/facebook-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/facebook-icon-black.svg'
                                 alt='facebook'
                                 width={14}
                                 height={14}
@@ -657,14 +657,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/twitter-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/twitter-icon-white.svg'
                                 alt='twitter'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/twitter-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/twitter-icon-black.svg'
                                 alt='twitter'
                                 width={14}
                                 height={14}
@@ -679,14 +679,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/linkedin-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/linkedin-icon-white.svg'
                                 alt='linkedin'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/linkedin-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/linkedin-icon-black.svg'
                                 alt='linkedin'
                                 width={14}
                                 height={14}
@@ -701,14 +701,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/instagram-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/instagram-icon-white.svg'
                                 alt='instagram'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/instagram-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/instagram-icon-black.svg'
                                 alt='instagram'
                                 width={14}
                                 height={14}
@@ -729,7 +729,7 @@ function Home_3() {
                   >
                     <div className='xl:h[300px] w-full overflow-hidden rounded-[20px] xxl:h-[400px]'>
                       <Image
-                        src='/assets/img/th-1/team-member-img-3.jpg'
+                        src='/assets/img_placeholder/th-1/team-member-img-3.jpg'
                         alt='team-member-img-3'
                         width={376}
                         height={400}
@@ -753,14 +753,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/facebook-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/facebook-icon-white.svg'
                                 alt='facebook'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/facebook-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/facebook-icon-black.svg'
                                 alt='facebook'
                                 width={14}
                                 height={14}
@@ -775,14 +775,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/twitter-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/twitter-icon-white.svg'
                                 alt='twitter'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/twitter-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/twitter-icon-black.svg'
                                 alt='twitter'
                                 width={14}
                                 height={14}
@@ -797,14 +797,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/linkedin-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/linkedin-icon-white.svg'
                                 alt='linkedin'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/linkedin-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/linkedin-icon-black.svg'
                                 alt='linkedin'
                                 width={14}
                                 height={14}
@@ -819,14 +819,14 @@ function Home_3() {
                               className='group relative flex h-[30px] w-[30px] items-center justify-center rounded-[50%] bg-black hover:bg-colorOrangyRed'
                             >
                               <Image
-                                src='/assets/img/th-1/instagram-icon-white.svg'
+                                src='/assets/img_placeholder/th-1/instagram-icon-white.svg'
                                 alt='instagram'
                                 width={14}
                                 height={14}
                                 className='opacity-100 group-hover:opacity-0'
                               />
                               <Image
-                                src='/assets/img/th-1/instagram-icon-black.svg'
+                                src='/assets/img_placeholder/th-1/instagram-icon-black.svg'
                                 alt='instagram'
                                 width={14}
                                 height={14}
@@ -872,7 +872,7 @@ function Home_3() {
                     >
                       <div className='h-auto w-[146px]'>
                         <Image
-                          src='/assets/img/th-3/review-star.svg'
+                          src='/assets/img_placeholder/th-3/review-star.svg'
                           alt='review-star'
                           width={146}
                           height={24}
@@ -898,7 +898,7 @@ function Home_3() {
                     >
                       <div className='h-auto w-[146px]'>
                         <Image
-                          src='/assets/img/th-3/review-star.svg'
+                          src='/assets/img_placeholder/th-3/review-star.svg'
                           alt='review-star'
                           width={146}
                           height={24}
@@ -963,7 +963,7 @@ function Home_3() {
                       className='h-[230px] w-full overflow-hidden rounded-[10px] xl:w-[250px]'
                     >
                       <Image
-                        src='/assets/img/th-1/blog-main-1.jpg'
+                        src='/assets/img_placeholder/th-1/blog-main-1.jpg'
                         alt='blog-main-1'
                         width={856}
                         height={450}
@@ -995,7 +995,7 @@ function Home_3() {
                       className='h-[230px] w-full overflow-hidden rounded-[10px] xl:w-[250px]'
                     >
                       <Image
-                        src='/assets/img/th-1/blog-main-2.jpg'
+                        src='/assets/img_placeholder/th-1/blog-main-2.jpg'
                         alt='blog-main-2'
                         width={856}
                         height={450}
@@ -1027,7 +1027,7 @@ function Home_3() {
                       className='h-[230px] w-full overflow-hidden rounded-[10px] xl:w-[250px]'
                     >
                       <Image
-                        src='/assets/img/th-1/blog-main-3.jpg'
+                        src='/assets/img_placeholder/th-1/blog-main-3.jpg'
                         alt='blog-main-3'
                         width={856}
                         height={450}
@@ -1059,7 +1059,7 @@ function Home_3() {
                       className='h-[230px] w-full overflow-hidden rounded-[10px] xl:w-[250px]'
                     >
                       <Image
-                        src='/assets/img/th-1/blog-main-4.jpg'
+                        src='/assets/img_placeholder/th-1/blog-main-4.jpg'
                         alt='blog-main-4'
                         width={856}
                         height={450}

@@ -43,7 +43,7 @@ function BlogDetails() {
 										<article className="jos overflow-hidden bg-white">
 											<div className="mb-7 block overflow-hidden rounded-[10px]">
 												<Image
-													src="/assets/img/th-1/blog-main-1.jpg"
+													src="/assets/img_placeholder/th-1/blog-main-1.jpg"
 													alt="blog-main-1"
 													width={856}
 													height={540}
@@ -118,7 +118,7 @@ function BlogDetails() {
 												<li>
 													<div className="overflow-hidden rounded-[10px]">
 														<Image
-															src="/assets/img/th-1/blog-inner-image.jpg"
+															src="/assets/img_placeholder/th-1/blog-inner-image.jpg"
 															alt="blog-inner-image"
 															width={100}
 															height={100}
@@ -185,7 +185,7 @@ function BlogDetails() {
 											<div className="flex items-center gap-x-6">
 												<button className="inline-flex items-center gap-x-1 text-[#121212]">
 													<Image
-														src="/assets/img/th-1/icon-black-outline-thumb-up.svg"
+														src="/assets/img_placeholder/th-1/icon-black-outline-thumb-up.svg"
 														alt="icon-black-outline-thumb-up"
 														width={24}
 														height={24}
@@ -194,7 +194,7 @@ function BlogDetails() {
 												</button>
 												<button className="inline-flex items-center gap-x-1 text-[#121212]">
 													<Image
-														src="/assets/img/th-1/icon-black-outline-chat-alt.svg"
+														src="/assets/img_placeholder/th-1/icon-black-outline-chat-alt.svg"
 														alt="icon-black-outline-chat-alt"
 														width={24}
 														height={24}
@@ -205,7 +205,7 @@ function BlogDetails() {
 											<div className="flex items-center gap-x-6">
 												<button className="inline-flex items-center gap-x-1 text-[#121212]">
 													<Image
-														src="/assets/img/th-1/icon-black-outline-share.svg"
+														src="/assets/img_placeholder/th-1/icon-black-outline-share.svg"
 														alt="icon-black-outline-share"
 														width={24}
 														height={24}
@@ -213,7 +213,7 @@ function BlogDetails() {
 												</button>
 												<button className="inline-flex items-center gap-x-1 text-[#121212]">
 													<Image
-														src="/assets/img/th-1/icon-black-outline-inbox-in.svg"
+														src="/assets/img_placeholder/th-1/icon-black-outline-inbox-in.svg"
 														alt="icon-black-outline-inbox-in"
 														width={24}
 														height={24}
@@ -230,7 +230,7 @@ function BlogDetails() {
 											<Link href="/blog-details" className="group text-left">
 												<span className="inline-flex items-center gap-x-3 text-[21px] font-bold transition-all duration-300 group-hover:text-colorOrangyRed">
 													<Image
-														src="/assets/img/th-1/icon-black-cheveron-left.svg"
+														src="/assets/img_placeholder/th-1/icon-black-cheveron-left.svg"
 														alt="icon-black-cheveron-left.svg"
 														width={24}
 														height={24}
@@ -245,7 +245,7 @@ function BlogDetails() {
 											<Link href="/blog-details" className="group text-right">
 												<span className="inline-flex flex-row-reverse items-center gap-x-3 text-[21px] font-bold transition-all duration-300 group-hover:text-colorOrangyRed">
 													<Image
-														src="/assets/img/th-1/icon-black-cheveron-right.svg"
+														src="/assets/img_placeholder/th-1/icon-black-cheveron-right.svg"
 														alt="icon-black-cheveron-right.svg"
 														width={24}
 														height={24}
@@ -271,7 +271,7 @@ function BlogDetails() {
 														{/* Comment User Image */}
 														<div className="h-[80px] w-[80px] overflow-hidden rounded-full">
 															<Image
-																src="/assets/img/th-1/blog-comment-large-user-img-1.jpg"
+																src="/assets/img_placeholder/th-1/blog-comment-large-user-img-1.jpg"
 																alt="blog-comment-large-user-img-1"
 																width={80}
 																height={80}
@@ -310,7 +310,7 @@ function BlogDetails() {
 																{/* Comment User Image */}
 																<div className="h-[50px] w-[50px] overflow-hidden rounded-full">
 																	<Image
-																		src="/assets/img/th-1/blog-comment-small-user-img-1.jpg"
+																		src="/assets/img_placeholder/th-1/blog-comment-small-user-img-1.jpg"
 																		alt="blog-comment-large-user-img-1"
 																		width={50}
 																		height={50}
@@ -465,7 +465,7 @@ function BlogDetails() {
 												className="absolute left-[30px] top-0 h-full"
 											>
 												<Image
-													src="/assets/img/th-1/icon-black-search.svg"
+													src="/assets/img_placeholder/th-1/icon-black-search.svg"
 													alt="search"
 													width={20}
 													height={20}
@@ -531,7 +531,7 @@ function BlogDetails() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img/th-1/blog-recent-img-1.jpg"
+														src="/assets/img_placeholder/th-1/blog-recent-img-1.jpg"
 														alt="blog-recent-img-1"
 														width={150}
 														height={130}
@@ -545,7 +545,7 @@ function BlogDetails() {
 													>
 														<div className="h-6 w-6">
 															<Image
-																src="/assets/img/th-1/icon-black-calendar.svg"
+																src="/assets/img_placeholder/th-1/icon-black-calendar.svg"
 																alt="icon-black-calendar"
 																width={24}
 																height={24}
@@ -568,7 +568,7 @@ function BlogDetails() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img/th-1/blog-recent-img-2.jpg"
+														src="/assets/img_placeholder/th-1/blog-recent-img-2.jpg"
 														alt="blog-recent-img-2"
 														width={150}
 														height={130}
@@ -582,7 +582,7 @@ function BlogDetails() {
 													>
 														<div className="h-6 w-6">
 															<Image
-																src="/assets/img/th-1/icon-black-calendar.svg"
+																src="/assets/img_placeholder/th-1/icon-black-calendar.svg"
 																alt="icon-black-calendar"
 																width={24}
 																height={24}
@@ -605,7 +605,7 @@ function BlogDetails() {
 													className="inline-block h-[150px] w-full overflow-hidden rounded-[5px] sm:h-[100px] sm:w-[150px]"
 												>
 													<Image
-														src="/assets/img/th-1/blog-recent-img-3.jpg"
+														src="/assets/img_placeholder/th-1/blog-recent-img-3.jpg"
 														alt="blog-recent-img-3"
 														width={150}
 														height={130}
@@ -619,7 +619,7 @@ function BlogDetails() {
 													>
 														<div className="h-6 w-6">
 															<Image
-																src="/assets/img/th-1/icon-black-calendar.svg"
+																src="/assets/img_placeholder/th-1/icon-black-calendar.svg"
 																alt="icon-black-calendar"
 																width={24}
 																height={24}
