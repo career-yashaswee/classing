@@ -9,7 +9,7 @@ export default function Classing() {
     <>
       <Loader />
       <Leva hidden />
-      <UI />
+      <UI hidden={false} />
       <Canvas shadows camera={{ position: [0, 0, -1], fov: 45 }}>
         <Experience />
       </Canvas>
