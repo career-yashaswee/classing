@@ -18,7 +18,7 @@ export default function App() {
       </SignedOut>
       <SignedIn>
         <ProtectedRoute />
-        <UserButton />
+        {/* <UserButton /> */}
       </SignedIn>
     </div>
   );
