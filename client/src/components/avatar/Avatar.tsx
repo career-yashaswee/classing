@@ -124,7 +124,7 @@ export function Avatar(props) {
     audio.onended = onMessagePlayed;
   }, [message]);
 
-  const { animations } = useGLTF("/models/compileAnim.glb");
+  const { animations } = useGLTF("/models/anim.glb");
 
   const group = useRef();
   const { actions, mixer } = useAnimations(animations, group);
@@ -371,4 +371,4 @@ export function Avatar(props) {
 }
 
 useGLTF.preload("/models/676434ecada554d286958707.glb");
-useGLTF.preload("/models/compileAnim.glb");
+useGLTF.preload("/models/anim.glb");

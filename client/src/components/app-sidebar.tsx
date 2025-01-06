@@ -1,15 +1,16 @@
 import * as React from "react";
 import {
-  BookOpen,
-  Bot,
   Command,
-  Frame,
   LifeBuoy,
-  Map,
-  PieChart,
   Send,
   Settings2,
-  SquareTerminal,
+  Presentation,
+  Box,
+  ChartArea,
+  SquareFunction,
+  Atom,
+  Binary,
+  Brush,
 } from "lucide-react";
 
 import { NavMain } from "@/components/nav/nav-main";
@@ -26,57 +27,57 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import { siteConfig } from "@/data/data";
+import { useUser } from "@clerk/clerk-react";
 
 const data = {
-  user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
-  },
   navMain: [
     {
-      title: "Playground",
-      url: "#",
-      icon: SquareTerminal,
+      title: "Class",
+      url: "/class",
+      icon: Presentation,
       isActive: true,
       items: [
         {
-          title: "History",
+          title: "Feed",
           url: "#",
         },
         {
-          title: "Starred",
+          title: "People",
           url: "#",
         },
         {
-          title: "Settings",
+          title: "Grade",
+          url: "#",
+        },
+        {
+          title: "Context",
           url: "#",
         },
       ],
     },
     {
-      title: "Models",
+      title: "Assets",
       url: "#",
-      icon: Bot,
+      icon: Box,
       items: [
         {
-          title: "Genesis",
+          title: "iVisualisations",
           url: "#",
         },
         {
-          title: "Explorer",
+          title: "Mind Maps",
           url: "#",
         },
         {
-          title: "Quantum",
+          title: "Videpts",
           url: "#",
         },
       ],
     },
     {
-      title: "Documentation",
+      title: "Analytics",
       url: "#",
-      icon: BookOpen,
+      icon: ChartArea,
       items: [
         {
           title: "Introduction",
@@ -122,36 +123,54 @@ const data = {
   ],
   navSecondary: [
     {
+      title: "Canvas",
+      url: "/canvas",
+      icon: Brush,
+    },
+    {
       title: "Support",
-      url: "#",
+      url: "/support",
       icon: LifeBuoy,
     },
     {
       title: "Feedback",
-      url: "#",
+      url: "/feedback",
       icon: Send,
     },
   ],
   projects: [
     {
-      name: "Design Engineering",
+      name: "Mathematics",
       url: "#",
-      icon: Frame,
+      icon: SquareFunction,
     },
     {
-      name: "Sales & Marketing",
+      name: "Computer Science",
       url: "#",
-      icon: PieChart,
+      icon: Binary,
     },
     {
-      name: "Travel",
+      name: "Physics",
       url: "#",
-      icon: Map,
+      icon: Atom,
     },
   ],
 };
 
+type UserData = {
+  name: string;
+  email: string;
+  avatar: string;
+};
+
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
+  const { user } = useUser();
+  const userData: UserData = {
+    name: user?.fullName || "User",
+    email: user?.emailAddresses?.[0]?.emailAddress || "abc",
+    avatar: "/avatars/shadcn.jpg",
+  };
+
   return (
     <Sidebar variant="inset" {...props}>
       <SidebarHeader>
@@ -179,7 +198,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <NavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
       <SidebarFooter>
-        <NavUser user={data.user} />
+        <NavUser user={userData} />
       </SidebarFooter>
     </Sidebar>
   );

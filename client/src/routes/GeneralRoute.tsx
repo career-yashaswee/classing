@@ -3,6 +3,7 @@ import { Suspense, lazy } from "react";
 import { SplashScreen } from "@/components/app-wide/SplashScreen";
 
 const Home = lazy(() => import("@/modules/home/Home"));
+const Error = lazy(() => import("@/components/app-wide/Error"));
 
 function GeneralRoute() {
   return (
@@ -10,6 +11,7 @@ function GeneralRoute() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<Error />} />
         </Routes>
       </Router>
     </Suspense>

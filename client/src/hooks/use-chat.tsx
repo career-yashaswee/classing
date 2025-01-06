@@ -15,7 +15,7 @@ export const ChatProvider = ({ children }) => {
       body: JSON.stringify({ message }),
     });
     const resp = (await data.json()).messages;
-    setMessages((messages) => [...messages, ...resp]);
+    setMessages((prevMessages) => [...prevMessages, ...resp]);
     setLoading(false);
   };
   const [messages, setMessages] = useState([]);
