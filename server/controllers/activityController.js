@@ -1,5 +1,5 @@
 // Import Model of the Activity.
-const Activity = require("../database/activitySchema/activitySchema");
+const Activity = require("../schemas/activitySchema/activitySchema");
 const mongoose = require("mongoose");
 
 // CREATE Activity

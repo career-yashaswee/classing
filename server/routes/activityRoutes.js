@@ -12,5 +12,5 @@ router.put("/activity/:objectID", activityController.updateActivity);
 // DELETE Activity by ObjectID // Checked and Corrected.
 router.delete("/activity/:objectID", activityController.deleteActivity);
 // GET ALL Activities // Checked and Corrected.
-router.get("/activities", activityController.getAllActivities);
+router.get("/activity", activityController.getAllActivities);
 module.exports = router;

@@ -1,20 +1,10 @@
-// const express = require("express");
-// const app = express();
-// const port = 3000;
-// app.get("/", (req, res) => {
-//   res.send("Hello from Express!");
-// });
-// app.listen(port, () => {
-//   console.log(`Server listening on port ${port}`);
-// });
-
 require("dotenv").config(); // Load environment variables
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
 // Required Files to be Imported.
-const activityCollectionRoutes = require("./routes/activityCollectionRoutes");
+const activityCollectionRoutes = require("./routes/activityRoutes");
 
 const app = express();
 
@@ -49,10 +39,8 @@ mongoose
     process.exit(1);
   });
 
-// Register API Routes Files.
 // --ROUTES--
-app.use("/activityCollection", activityCollectionRoutes);
-
+app.use("/activity", activityCollectionRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
@@ -71,8 +59,8 @@ const PORT = process.env.PORT || 3000;
 
 // Start the server
 app.listen(PORT, () => {
-  console.log(`CLIENT sending on ${process.env.CLIENT_URL}`);
-  console.log(`SERVER listening on ${URL}: ${PORT}`);
+  // console.log(`CLIENT sending on ${process.env.CLIENT_URL}`);
+  console.log(`SERVER listening on ${URL}:${PORT}`);
 });
 
 module.exports = app;
