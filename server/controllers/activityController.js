@@ -1,11 +1,12 @@
 // Import Model of the Activity.
-const Activity = require("../database/activityCollectionSchema/activityCollectionSchema");
+const Activity = require("../database/activitySchema/activitySchema");
 const mongoose = require("mongoose");
 
 // CREATE Activity
 exports.createActivity = async (req, res) => {
   try {
     const newActivity = new Activity(req.body);
+    // console.log(newActivity);
     const savedActivity = await newActivity.save();
     res.status(201).json({ message: "Activity Created", data: savedActivity });
   } catch (error) {

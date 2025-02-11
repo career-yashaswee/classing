@@ -35,9 +35,9 @@ const activityCollectionSchema = new mongoose.Schema(
     severity: {
       type: Number,
       required: true,
-    // min: [1, "Severity must be between 1 & 10"],
-    // max: [10, "Severity must be between 1 & 10"],
-      enum: ["1-4", "5-7", "8-10"],
+      min: [1, "Severity must be between 1 & 10"],
+      max: [10, "Severity must be between 1 & 10"],
+      // enum: ["1-4", "5-7", "8-10"],
     },
     triggered_by: {
       id: {
@@ -113,4 +113,5 @@ const activityCollectionSchema = new mongoose.Schema(
 );
 
 // Model Export.
-module.exports.activityCollectionSchema = mongoose.model("activityCollectionSchema", activityCollectionSchema);
+const Activity = mongoose.model("activityCollectionSchema", activityCollectionSchema);
+module.exports = Activity;
