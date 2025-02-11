@@ -72,7 +72,7 @@ const PORT = process.env.PORT || 3000;
 // Start the server
 app.listen(PORT, () => {
   console.log(`CLIENT sending on ${process.env.CLIENT_URL}`);
-  console.log(`SERVER listening on ${URL}:${PORT}`);
+  console.log(`SERVER listening on ${URL}: ${PORT}`);
 });
 
 module.exports = app;
