@@ -1,12 +1,12 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 // Custom validator to ensure at least one action is provided
 function arrayLimit(val) {
-    return val.length > 0;
-  }
+  return val.length > 0;
+}
 
 const activityCollectionSchema = new mongoose.Schema(
-  { 
+  {
     // automaticMaking: "_id": ObjectId("65c8d1f9e73a3d1a5c9f1b4c")
     // "title": "Student Missed Attention Check"
     title: {
@@ -30,7 +30,7 @@ const activityCollectionSchema = new mongoose.Schema(
       type: String,
       required: [true, "Description required"],
       trim: true,
-      maxlength: [500, "Description cannot exceed 500 characters"]
+      maxlength: [500, "Description cannot exceed 500 characters"],
     },
     severity: {
       type: Number,
@@ -63,8 +63,8 @@ const activityCollectionSchema = new mongoose.Schema(
         validator: function (value) {
           return value instanceof Date && !isNaN(value);
         },
-        message: "Invalid date format"
-      }
+        message: "Invalid date format",
+      },
     },
     // Time will be Requred Automatically.
     time: {
@@ -74,15 +74,15 @@ const activityCollectionSchema = new mongoose.Schema(
         validator: function (value) {
           return /^([0-1]?[0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9]$/.test(value);
         },
-        message: "Invalid time format (HH:MM:SS expected)"
-      }
+        message: "Invalid time format (HH:MM:SS expected)",
+      },
     },
     actions: {
       type: [
         {
           action_id: {
             type: String,
-            required: [true, "Action ID required"]
+            required: [true, "Action ID required"],
           },
           url: {
             type: String,
@@ -92,11 +92,11 @@ const activityCollectionSchema = new mongoose.Schema(
                 return /^https?:\/\/[^\s$.?#].[^\s]*$/.test(value);
               },
               message: "!! Invalid URL",
-            }
-          }
-        }
+            },
+          },
+        },
       ],
-      validate: [arrayLimit, "Validate URL"]
+      validate: [arrayLimit, "Validate URL"],
     },
     contact: {
       type: String,
@@ -105,13 +105,16 @@ const activityCollectionSchema = new mongoose.Schema(
         validator: function (value) {
           return /^\+?[0-9]{10,15}$/.test(value);
         },
-        message: "Invalid contact number format"
-      }
-    }
+        message: "Invalid contact number format",
+      },
+    },
   },
   { timestamps: true }
 );
 
 // Model Export.
-const Activity = mongoose.model("activityCollectionSchema", activityCollectionSchema);
+const Activity = mongoose.model(
+  "activityCollectionSchema",
+  activityCollectionSchema
+);
 module.exports = Activity;

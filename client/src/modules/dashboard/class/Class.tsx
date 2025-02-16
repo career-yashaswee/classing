@@ -74,7 +74,10 @@ export default function Class() {
                           <DialogContent>
                             <DialogHeader>
                               <DialogTitle>Add Class</DialogTitle>
-                              <DialogDescription>Create class and share invite code to allow students to join</DialogDescription>
+                              <DialogDescription>
+                                Create class and share invite code to allow
+                                students to join
+                              </DialogDescription>
                             </DialogHeader>
                             <div className="grid gap-4 py-4">
                               <div className="grid gap-2">

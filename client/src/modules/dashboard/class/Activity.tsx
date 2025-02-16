@@ -1,5 +1,7 @@
+import { lazy } from "react";
+const ActivityDashboard = lazy(() => import("./activity/Activity"));
 function Section() {
-  return <div>Activity</div>;
+  return <ActivityDashboard />;
 }
 
 export default Section;

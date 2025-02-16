@@ -41,12 +41,18 @@ exports.updateActivity = async (req, res) => {
       return res.status(400).json({ error: "Invalid ObjectID" });
     }
 
-    const updatedActivity = await Activity.findByIdAndUpdate(objectID, req.body, { new: true, runValidators: true });
+    const updatedActivity = await Activity.findByIdAndUpdate(
+      objectID,
+      req.body,
+      { new: true, runValidators: true }
+    );
     if (!updatedActivity) {
       return res.status(404).json({ error: "Activity not found" });
     }
 
-    res.status(200).json({ message: "Activity Updated", data: updatedActivity });
+    res
+      .status(200)
+      .json({ message: "Activity Updated", data: updatedActivity });
   } catch (error) {
     res.status(400).json({ error: error.message });
   }

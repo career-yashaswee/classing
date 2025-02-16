@@ -5,7 +5,7 @@ const cors = require("cors");
 
 // Required Files to be Imported.
 const activityCollectionRoutes = require("./routes/activityRoutes");
-const sessionRoutes = require("./routes/sessionRoutes")
+const sessionRoutes = require("./routes/sessionRoutes");
 
 const app = express();
 
@@ -30,10 +30,7 @@ if (!mongoURI) {
 
 // Connect to MongoDB
 mongoose
-  .connect(mongoURI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(mongoURI)
   .then(() => console.log("\nConnected to MongoDB"))
   .catch((err) => {
     console.error("\nMongoDB connection error:", err);

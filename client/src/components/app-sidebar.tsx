@@ -3,11 +3,9 @@ import {
   Command,
   LifeBuoy,
   Send,
-  Settings2,
   Presentation,
-  Box,
-  ChartArea,
   SquareFunction,
+  LineChart,
   Atom,
   Binary,
   Brush,
@@ -38,87 +36,20 @@ const data = {
       isActive: true,
       items: [
         {
-          title: "Feed",
-          url: "#",
+          title: "Sessions",
+          url: "/session",
         },
         {
-          title: "People",
-          url: "#",
-        },
-        {
-          title: "Grade",
-          url: "#",
-        },
-        {
-          title: "Context",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Assets",
-      url: "#",
-      icon: Box,
-      items: [
-        {
-          title: "iVisualisations",
-          url: "#",
-        },
-        {
-          title: "Mind Maps",
-          url: "#",
-        },
-        {
-          title: "Videpts",
-          url: "#",
+          title: "Activities",
+          url: "/activity",
         },
       ],
     },
     {
       title: "Analytics",
-      url: "#",
-      icon: ChartArea,
-      items: [
-        {
-          title: "Introduction",
-          url: "#",
-        },
-        {
-          title: "Get Started",
-          url: "#",
-        },
-        {
-          title: "Tutorials",
-          url: "#",
-        },
-        {
-          title: "Changelog",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "Settings",
-      url: "#",
-      icon: Settings2,
-      items: [
-        {
-          title: "General",
-          url: "#",
-        },
-        {
-          title: "Team",
-          url: "#",
-        },
-        {
-          title: "Billing",
-          url: "#",
-        },
-        {
-          title: "Limits",
-          url: "#",
-        },
-      ],
+      url: "/analytics",
+      icon: LineChart,
+      isActive: false,
     },
   ],
   navSecondary: [

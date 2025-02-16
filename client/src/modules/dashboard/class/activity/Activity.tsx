@@ -30,15 +30,60 @@ import {
   Eye,
   Calendar,
   User,
-  Activity,
+  ActivityIcon,
   LogIn,
   ShoppingCart,
   UserPlus,
 } from "lucide-react";
 import React from "react"; // Import React
+import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
+import { Activity } from "@/types/activity";
+import { API_ } from "@/data/api";
+import axios from "axios";
 
-// Mock data for activities
 const activities = [
+  {
+    id: 1,
+    type: "Login",
+    user: "John Doe",
+    date: "2023-04-01",
+    status: "Success",
+  },
+  {
+    id: 2,
+    type: "Purchase",
+    user: "Jane Smith",
+    date: "2023-04-02",
+    status: "Completed",
+  },
+  {
+    id: 3,
+    type: "Signup",
+    user: "Alice Johnson",
+    date: "2023-04-03",
+    status: "Success",
+  },
+  {
+    id: 4,
+    type: "Login",
+    user: "Bob Wilson",
+    date: "2023-04-04",
+    status: "Failed",
+  },
+  {
+    id: 5,
+    type: "Purchase",
+    user: "Eve Brown",
+    date: "2023-04-05",
+    status: "Pending",
+  },
+  {
+    id: 6,
+    type: "Signup",
+    user: "Charlie Davis",
+    date: "2023-04-06",
+    status: "Success",
+  },
   {
     id: 1,
     type: "Login",
@@ -89,29 +134,44 @@ const activityIcons = {
   Signup: UserPlus,
 };
 
+const getAllActivities = async (): Promise<Activity[]> => {
+  const response = await axios.get<Activity[]>(API_.ACTIVITY.GET_ALL_ACTIVITY);
+  console.log(response.data);
+  return response.data;
+};
+
 export default function ActivityDashboard() {
   const [view, setView] = useState<"card" | "table">("card");
   const [searchTerm, setSearchTerm] = useState("");
   const [sortBy, setSortBy] = useState("date");
   const [groupBy, setGroupBy] = useState("none");
   const [currentPage, setCurrentPage] = useState(1);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isRECLoading, setIsRECLoading] = useState(true);
   const itemsPerPage = 6;
 
+  const { data, error, isLoading, isError } = useQuery({
+    queryKey: ["activities"],
+    queryFn: getAllActivities,
+  });
+
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 1500);
+    const timer = setTimeout(() => setIsRECLoading(false), 1500);
     return () => clearTimeout(timer);
   }, []);
 
-  const filteredActivities = activities.filter((activity) =>
-    Object.values(activity).some((value) =>
-      value.toString().toLowerCase().includes(searchTerm.toLowerCase())
-    )
-  );
+  const filteredActivities = data
+    ? data.filter((activity) =>
+        Object.values(activity).some((value) =>
+          value.toString().toLowerCase().includes(searchTerm.toLowerCase())
+        )
+      )
+    : [];
 
-  const sortedActivities = [...filteredActivities].sort((a, b) =>
-    a[sortBy as keyof typeof a] > b[sortBy as keyof typeof b] ? 1 : -1
-  );
+  const sortedActivities = filteredActivities
+    ? [...filteredActivities].sort((a, b) =>
+        a[sortBy as keyof typeof a] > b[sortBy as keyof typeof b] ? 1 : -1
+      )
+    : [];
 
   const groupedActivities =
     groupBy === "none"
@@ -172,7 +232,7 @@ export default function ActivityDashboard() {
             </Select>
             <Select value={groupBy} onValueChange={setGroupBy}>
               <SelectTrigger className="w-[140px] rounded-md border-duotone-primary/30 focus:border-duotone-primary focus:ring-duotone-primary">
-                <Activity className="h-4 w-4 mr-2 text-duotone-primary" />
+                <ActivityIcon className="h-4 w-4 mr-2 text-duotone-primary" />
                 <SelectValue placeholder="Group by" />
               </SelectTrigger>
               <SelectContent>
@@ -264,9 +324,9 @@ export default function ActivityDashboard() {
   );
 }
 
-const ActivityCard = ({ activity }: { activity: (typeof activities)[0] }) => {
+const ActivityCard = ({ activity }: { activity: Activity }) => {
   const IconComponent =
-    activityIcons[activity.type as keyof typeof activityIcons] || Activity;
+    activityIcons[activity.type as keyof typeof activityIcons] || ActivityIcon;
 
   return (
     <motion.div
@@ -297,7 +357,7 @@ const ActivityCard = ({ activity }: { activity: (typeof activities)[0] }) => {
                 />
               </div>
               <h4 className="font-semibold ml-2 text-gray-800">
-                {activity.type}
+                {activity.category}
               </h4>
             </div>
             <Button
@@ -311,15 +371,36 @@ const ActivityCard = ({ activity }: { activity: (typeof activities)[0] }) => {
           <div className="mt-4 space-y-2">
             <p className="text-sm text-gray-600 flex items-center">
               <User className="h-4 w-4 mr-2 text-duotone-primary" />
-              {activity.user}
+              {activity.triggered_by.id}
+            </p>
+            <p className="text-sm font-medium flex items-center">
+              <ActivityIcon className="h-4 w-4 mr-2 text-gray-500" />
+              {activity.title}
+            </p>
+            <p className="text-sm font-medium flex items-center">
+              <ActivityIcon className="h-4 w-4 mr-2 text-gray-500" />
+              {activity.description}
             </p>
             <p className="text-sm text-gray-600 flex items-center">
               <Calendar className="h-4 w-4 mr-2 text-duotone-secondary" />
               {activity.date}
             </p>
             <p className="text-sm font-medium flex items-center">
-              <Activity className="h-4 w-4 mr-2 text-gray-500" />
-              {activity.status}
+              <ActivityIcon className="h-4 w-4 mr-2 text-gray-500" />
+              {activity.category}
+            </p>
+            <p className="text-sm font-medium flex items-center">
+              <ActivityIcon className="h-4 w-4 mr-2 text-gray-500" />
+              {activity.sub_category}
+            </p>
+            <p className="text-sm font-medium flex items-center">
+              <ActivityIcon className="h-4 w-4 mr-2 text-gray-500" />
+              {activity.contact}
+            </p>
+
+            <p className="text-sm font-medium flex items-center">
+              <ActivityIcon className="h-4 w-4 mr-2 text-gray-500" />
+              {activity.severity}
             </p>
           </div>
         </CardContent>
@@ -328,7 +409,7 @@ const ActivityCard = ({ activity }: { activity: (typeof activities)[0] }) => {
   );
 };
 
-const ActivityTable = ({ activities }: { activities: typeof activities }) => {
+const ActivityTable = ({ activities }: { activities: Activity[] }) => {
   return (
     <Table className="w-full">
       <TableHeader>
@@ -350,7 +431,7 @@ const ActivityTable = ({ activities }: { activities: typeof activities }) => {
               <div className="flex items-center">
                 {React.createElement(
                   activityIcons[activity.type as keyof typeof activityIcons] ||
-                    Activity,
+                    ActivityIcon,
                   {
                     className: "h-4 w-4 mr-2",
                   }
@@ -372,7 +453,7 @@ const ActivityTable = ({ activities }: { activities: typeof activities }) => {
             </TableCell>
             <TableCell className="text-gray-600">
               <div className="flex items-center">
-                <Activity className="h-4 w-4 mr-2" />
+                <ActivityIcon className="h-4 w-4 mr-2" />
                 {activity.status}
               </div>
             </TableCell>
