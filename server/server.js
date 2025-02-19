@@ -6,6 +6,7 @@ const cors = require("cors");
 // Required Files to be Imported.
 const activityCollectionRoutes = require("./routes/activityRoutes");
 const sessionRoutes = require("./routes/sessionRoutes");
+const iVizRoutes = require("./routes/iVizRoutes");
 
 const app = express();
 
@@ -40,6 +41,7 @@ mongoose
 // --ROUTES--
 app.use("/activity", activityCollectionRoutes);
 app.use("/session", sessionRoutes);
+app.use("/interactiveVizualization", iVizRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
