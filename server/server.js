@@ -8,6 +8,8 @@ const activityCollectionRoutes = require("./routes/activityRoutes");
 const sessionRoutes = require("./routes/sessionRoutes");
 const doubtRoutes = require("./routes/doubtRoutes");
 const iVizRoutes = require("./routes/iVizRoutes");
+const avatarRoutes = require("./routes/avatarRoutes");
+const taskRoutes = require("./routes/taskRoutes");
 
 const app = express();
 
@@ -33,17 +35,19 @@ if (!mongoURI) {
 // Connect to MongoDB
 mongoose
   .connect(mongoURI)
-  .then(() => console.log("\nConnected to MongoDB"))
+  .then(() => console.log("Connected to MongoDB"))
   .catch((err) => {
-    console.error("\nMongoDB connection error:", err);
+    console.error("MongoDB connection error:", err);
     process.exit(1);
-  });
+});
 
 // --ROUTES--
 app.use("/activity", activityCollectionRoutes);
 app.use("/session", sessionRoutes);
 app.use("/doubt", doubtRoutes);
 app.use("/viz", iVizRoutes);
+app.use("/avatar", avatarRoutes);
+app.use("/task", taskRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
