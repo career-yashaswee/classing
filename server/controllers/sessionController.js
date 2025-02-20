@@ -1,7 +1,6 @@
 // Import Model of the Session.
 const Session = require("../schemas/sessionSchema/sessionSchema");
 const mongoose = require("mongoose");
-const Session = require("../schemas/sessionSchema/sessionSchema");
 const Student = require("../schemas/studentSchema/studentSchema");
 
 // CREATE Session
