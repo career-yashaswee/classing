@@ -6,6 +6,7 @@ const cors = require("cors");
 // Required Files to be Imported.
 const activityCollectionRoutes = require("./routes/activityRoutes");
 const sessionRoutes = require("./routes/sessionRoutes");
+const doubtRoutes = require("./routes/doubtRoutes");
 const iVizRoutes = require("./routes/iVizRoutes");
 
 const app = express();
@@ -13,7 +14,7 @@ const app = express();
 // CORS Middleware
 app.use(
   cors({
-    origin: process.env.CLIENT_URL,
+    origin: [process.env.ADMIN_URL, process.env.MOBILE_URL],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Access-Control-Allow-Origin"],
     credentials: true,
@@ -41,7 +42,8 @@ mongoose
 // --ROUTES--
 app.use("/activity", activityCollectionRoutes);
 app.use("/session", sessionRoutes);
-app.use("/interactiveVizualization", iVizRoutes);
+app.use("/doubt", doubtRoutes);
+app.use("/viz", iVizRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {

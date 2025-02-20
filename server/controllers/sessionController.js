@@ -40,7 +40,10 @@ const updateSession = async (req, res) => {
       return res.status(400).json({ error: "Invalid ObjectID" });
     }
 
-    const updatedSession = await Session.findByIdAndUpdate(objectID, req.body, { new: true, runValidators: true });
+    const updatedSession = await Session.findByIdAndUpdate(objectID, req.body, {
+      new: true,
+      runValidators: true,
+    });
     if (!updatedSession) {
       return res.status(404).json({ error: "Session not found" });
     }
@@ -81,4 +84,10 @@ const getAllSessions = async (req, res) => {
 };
 
 // Export all the Session.
-module.exports = { createSession, getSessionById, updateSession, deleteSession, getAllSessions };
+module.exports = {
+  createSession,
+  getSessionById,
+  updateSession,
+  deleteSession,
+  getAllSessions,
+};
