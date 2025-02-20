@@ -51,6 +51,19 @@ const sessionSchema = new mongoose.Schema(
       required: true,
       default: Date.now,
     },
+    inviteCode: {
+      type: String,
+      required: true,
+      default: function () {
+        return Math.random().toString(36).substring(2, 6).toUpperCase(); 
+      },
+      validate: {
+        validator: function (v) {
+          return /^[A-Za-z]{4}$/.test(v); // Ensures only 4 alphabetic characters
+        },
+        message: "Invite code must be exactly 4 alphabetic characters (A-Z, a-z)."
+      }
+    },
   },
   { timestamps: true }
 );

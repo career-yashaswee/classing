@@ -27,5 +27,8 @@ router.put("/sclass/:id", SClassController.updateSchoolClass);
 // Route to DELETE a School Class by ID
 router.delete("/sclass/:id", SClassController.deleteSchoolClass);
 
+// Verify Joining Status.
+router.get("/:objectID/join", sessionController.verifySClassMatch);
+
 // Exports // Checked and Corrected
 module.exports = router;

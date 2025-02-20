@@ -1,6 +1,8 @@
 // Import Model of the Session.
 const Session = require("../schemas/sessionSchema/sessionSchema");
 const mongoose = require("mongoose");
+const Session = require("../schemas/sessionSchema/sessionSchema");
+const Student = require("../schemas/studentSchema/studentSchema");
 
 // CREATE Session
 const createSession = async (req, res) => {
@@ -83,6 +85,42 @@ const getAllSessions = async (req, res) => {
   }
 };
 
+// VERIFY SClass.
+const verifySClassMatch = async (req, res) => {
+  try {
+    const { studentId, code, sessionId } = req.query; // Extracting from query params
+
+    if (!studentId || !code || !sessionId) {
+      return res.status(400).json({ error: "Missing studentId, code, or sessionId" });
+    }
+
+    // Fetch student and session details using _id
+    const student = await Student.findById(studentId);
+    const session = await Session.findById(sessionId);
+
+    if (!student || !session) {
+      return res.status(404).json({ error: "Student or Session not found" });
+    }
+
+    // Check if invite code matches
+    if (session.inviteCode !== code) {
+      return res.status(403).json({ error: "Invalid invite code!", allowed: false });
+    }
+
+    // Compare SClass IDs
+    if (student.SClass && session.SClass && student.SClass.toString() === session.SClass.toString()) {
+      return res.status(200).json({ message: "SClass ID matches and invite code is correct!", allowed: true });
+    } else {
+      return res.status(403).json({ error: "SClass ID mismatch!", allowed: false });
+    }
+  } catch (error) {
+    console.error(error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+};
+
+module.exports = { verifySClassMatch };
+
 // Export all the Session.
 module.exports = {
   createSession,
@@ -90,4 +128,5 @@ module.exports = {
   updateSession,
   deleteSession,
   getAllSessions,
+  verifySClassMatch
 };
