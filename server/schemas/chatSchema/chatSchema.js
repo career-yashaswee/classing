@@ -22,6 +22,8 @@ const messageSchema = new mongoose.Schema({
   content: { type: String, required: true }, // Message Content
   fileUrl: { type: String, default: null }, // For images/files
   isRead: { type: Boolean, default: false },
+  isDelivered: { type: Boolean, default: false },
+  isSent: { type: Boolean, default: false },
   createdAt: { type: Date, default: Date.now }
 });
 

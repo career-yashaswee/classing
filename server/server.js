@@ -10,6 +10,7 @@ const doubtRoutes = require("./routes/doubtRoutes");
 const iVizRoutes = require("./routes/iVizRoutes");
 const avatarRoutes = require("./routes/avatarRoutes");
 const taskRoutes = require("./routes/taskRoutes");
+const chatRoutes = require("./routes/chatRoutes");
 
 const app = express();
 
@@ -48,6 +49,7 @@ app.use("/doubt", doubtRoutes);
 app.use("/viz", iVizRoutes);
 app.use("/avatar", avatarRoutes);
 app.use("/task", taskRoutes);
+app.use("/chat", chatRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
