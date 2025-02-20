@@ -23,8 +23,9 @@ const sessionSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    class: {
-      type: String,
+    SClass: {
+      type: mongoose.Schema.Types.ObjectId, 
+      ref: "SchoolClass",
       required: true,
     },
     topic_tags: {
