@@ -10,6 +10,7 @@ const doubtRoutes = require("./routes/doubtRoutes");
 const iVizRoutes = require("./routes/iVizRoutes");
 const avatarRoutes = require("./routes/avatarRoutes");
 const taskRoutes = require("./routes/taskRoutes");
+const sclassRoutes = require("./routes/sclassRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 const settingRoutes = require("./routes/settingRoutes");
 
@@ -42,7 +43,7 @@ mongoose
   .catch((err) => {
     console.error("MongoDB connection error:", err);
     process.exit(1);
-});
+  });
 
 // --ROUTES--
 app.use("/activity", activityCollectionRoutes);
@@ -51,6 +52,7 @@ app.use("/doubt", doubtRoutes);
 app.use("/viz", iVizRoutes);
 app.use("/avatar", avatarRoutes);
 app.use("/task", taskRoutes);
+app.use("/sclass", sclassRoutes);
 app.use("/chat", chatRoutes);
 app.use("/setting", settingRoutes);
 

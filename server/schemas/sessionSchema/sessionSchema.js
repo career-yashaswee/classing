@@ -24,7 +24,7 @@ const sessionSchema = new mongoose.Schema(
       required: true,
     },
     SClass: {
-      type: mongoose.Schema.Types.ObjectId, 
+      type: mongoose.Schema.Types.ObjectId,
       ref: "SchoolClass",
       required: true,
     },

@@ -3,8 +3,8 @@ const SClass = require("../schemas/SClassID/SClassID"); // Import the SchoolClas
 // CREATE a new School Class
 exports.createSchoolClass = async (req, res) => {
   try {
-    const { id, name } = req.body;
-    const newSchoolClass = new SClass({ id, name });
+    const { name } = req.body;
+    const newSchoolClass = new SClass({ name });
     const savedClass = await newSchoolClass.save();
     res.status(201).json(savedClass);
   } catch (error) {
@@ -26,7 +26,6 @@ exports.createSchoolClass = async (req, res) => {
 //       res.status(500).json({ error: error.message });
 //     }
 // };
-  
 
 // GET a single School Class by ID
 exports.getSchoolClassById = async (req, res) => {
@@ -44,10 +43,14 @@ exports.getSchoolClassById = async (req, res) => {
 // UPDATE a School Class by ID
 exports.updateSchoolClass = async (req, res) => {
   try {
-    const updatedClass = await SClass.findByIdAndUpdate(req.params.id, req.body, {
-      new: true, // Return the updated document
-      runValidators: true, // Validate the updated fields
-    });
+    const updatedClass = await SClass.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      {
+        new: true, // Return the updated document
+        runValidators: true, // Validate the updated fields
+      }
+    );
 
     if (!updatedClass) {
       return res.status(404).json({ message: "School Class not found" });
