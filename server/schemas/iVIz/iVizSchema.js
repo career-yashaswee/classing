@@ -55,7 +55,7 @@ const visualizationSchema = new mongoose.Schema({
   totalRatings: { type: Number, required: true },
   editorsChoice: { type: Boolean, required: true },
   url: { type: String, required: true }
-});
+}); // Requirments.
 
 // Exporting the Vizualization Schema.
 const Visualization = mongoose.model('Visualization', visualizationSchema);

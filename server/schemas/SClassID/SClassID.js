@@ -9,3 +9,11 @@ const schoolClassSchema = new mongoose.Schema({
 // Export the Model
 const SClass = mongoose.model("SchoolClass", schoolClassSchema);
 module.exports = SClass;
+
+// JSON Format : 
+//
+// {
+//   "_id": "65c8d1f9e73a3d1a5c9f1b9i",
+//   "id": "CLS101",
+//   "name": "Grade 10 - Science"
+// }

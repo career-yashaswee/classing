@@ -1,12 +1,5 @@
 const mongoose = require("mongoose");
-
-// Avatar Conversation Schema.
-const conversationSchema = new mongoose.Schema({
-  messageId: { type: String, required: true },
-  sender: { type: String, enum: ["USER", "Avatar", "Teacher"], required: true },
-  text: { type: String, required: true },
-  timestamp: { type: Date, required: true },
-});
+const { conversationSchema } = require("./conversionSchema");
 
 // Avatar Schema.
 const avatarSessionSchema = new mongoose.Schema({
@@ -18,3 +11,30 @@ const avatarSessionSchema = new mongoose.Schema({
 // Export the Model
 const AvatarSession = mongoose.model("AvatarSession", avatarSessionSchema);
 module.exports = AvatarSession;
+
+// JSON Format : 
+// 
+// {
+//   "userId": "65c8d1f9e73a3d1a5c9f1b4c",
+//   "sessionId": "session_12345",
+//   "conversation": [
+//     {
+//       "messageId": "msg_001",
+//       "sender": "USER",
+//       "text": "Hello, how are you?",
+//       "timestamp": "2025-02-22T10:30:00.000Z"
+//     },
+//     {
+//       "messageId": "msg_002",
+//       "sender": "Avatar",
+//       "text": "I'm here to assist you. How can I help?",
+//       "timestamp": "2025-02-22T10:30:05.000Z"
+//     },
+//     {
+//       "messageId": "msg_003",
+//       "sender": "Teacher",
+//       "text": "Let's focus on the lesson.",
+//       "timestamp": "2025-02-22T10:30:10.000Z"
+//     }
+//   ]
+// }

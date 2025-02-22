@@ -118,3 +118,35 @@ const Activity = mongoose.model(
   activityCollectionSchema
 );
 module.exports = Activity;
+
+
+// JSON Format : 
+// 
+// {
+//   "title": "Student Missed Attention Check",
+//   "category": "student_engagement",
+//   "sub_category": "administration",
+//   "description": "The student did not respond to the attention check during class.",
+//   "severity": 5,
+//   "triggered_by": {
+//     "id": "65c8d1f9e73a3d1a5c9f1b4c"
+//   },
+//   "sent_to": {
+//     "id": "65c8d1f9e73a3d1a5c9f1b5d"
+//   },
+//   "date": "2025-02-22T10:30:00.000Z",
+//   "time": "10:30:00",
+//   "actions": [
+//     {
+//       "action_id": "A12345",
+//       "url": "https://example.com/action1"
+//     },
+//     {
+//       "action_id": "A67890",
+//       "url": "https://example.com/action2"
+//     }
+//   ],
+//   "contact": "+1234567890",
+//   "createdAt": "2025-02-22T10:30:00.000Z",
+//   "updatedAt": "2025-02-22T10:30:00.000Z"
+// }

@@ -70,3 +70,22 @@ const sessionSchema = new mongoose.Schema(
 
 const Session = mongoose.model("Session", sessionSchema);
 module.exports = Session;
+
+// JSON Format : 
+//
+// {
+//   "_id": "65c8d1f9e73a3d1a5c9f1b9i",
+//   "title": "Introduction to Algebra",
+//   "subject": "Mathematics",
+//   "description": "This session will cover the basics of algebra, including equations and expressions.",
+//   "duration": 60,
+//   "course": "Basic Algebra",
+//   "SClass": "65c8d1f9e73a3d1a5c9f1b9j",
+//   "topic_tags": ["Algebra", "Equations", "Expressions"],
+//   "focus": "conceptual",
+//   "session_start_time": "10:30 AM",
+//   "session_start_date": "2025-02-22T00:00:00.000Z",
+//   "inviteCode": "ABCD",
+//   "createdAt": "2025-02-22T08:00:00.000Z",
+//   "updatedAt": "2025-02-22T08:00:00.000Z"
+// }

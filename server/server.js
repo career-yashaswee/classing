@@ -31,7 +31,8 @@ app.use(express.json()); // Middleware for JSON parsing
 const mongoURI = process.env.MONGODB_URI;
 if (!mongoURI) {
   console.error("Error: MONGODB_URI is not set in the environment variables.");
-  process.exit(1); // Exit process if MongoDB URI is missing
+  process.exit(1); // Exit process if MongoDB URI is missing.
+  // IF mongo DB is not Working.
 }
 
 // Connect to MongoDB
@@ -65,7 +66,7 @@ const URL =
     ? process.env.SERVER_PRODUCTION_URL
     : process.env.SERVER_DEVELOPMENT_URL;
 
-// Set PORT dynamically
+// Set PORT dynamically. (Mainly it will always be Active at port 3000).
 const PORT = process.env.PORT || 3000;
 
 // Start the server

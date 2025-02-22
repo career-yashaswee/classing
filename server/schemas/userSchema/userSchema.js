@@ -36,3 +36,16 @@ const UserSchema = new mongoose.Schema(
 );
 
 module.exports.UserSchema = mongoose.model("UserSchema", UserSchema);
+
+// JSON Format : 
+//
+// {
+//   "_id": "65d7c2e9f4a9b3c1e8b7d9f3",
+//   "name": "John Doe",
+//   "role": "Teacher",
+//   "contact": "+919876543210",
+//   "mailID": "johndoe@example.com",
+//   "createdAt": "2024-02-22T12:00:00.000Z",
+//   "updatedAt": "2024-02-22T12:00:00.000Z",
+//   "__v": 0
+// }

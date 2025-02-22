@@ -10,3 +10,14 @@ const DoubtSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model("Doubt", DoubtSchema);
+
+// JSON Format : 
+
+// {
+//   "sessionId": "session_12345",
+//   "collectionId": "65c8d1f9e73a3d1a5c9f1b4c",
+//   "studentId": "student_67890",
+//   "doubtText": "Can you explain Newton's third law of motion?",
+//   "timestamp": "2025-02-22T10:30:00.000Z",
+//   "tags": ["physics", "newton", "laws of motion"]
+// }

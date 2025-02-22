@@ -39,3 +39,15 @@ module.exports = DoubtCollection;
 // const DoubtCollection = mongoose.model("DoubtCollection", doubtCollectionSchema);
 // module.exports = DoubtCollection;
 
+
+// JSON Format : 
+//
+// {
+//   "tackled": 2,
+//   "doubts": [
+//     "65c8d1f9e73a3d1a5c9f1b4c",
+//     "65c8d1f9e73a3d1a5c9f1b5d"
+//   ]
+// }
+
+

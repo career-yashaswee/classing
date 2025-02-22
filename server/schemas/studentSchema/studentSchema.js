@@ -61,3 +61,24 @@ const studentSchema = new mongoose.Schema(
 );
 
 module.exports = mongoose.model("studentSchema", studentSchema);
+
+// JSON Format : 
+//
+// {
+//   "_id": "64f8a7d8b5f2c3a1d4e5f6b7",
+//   "username": "john_doe",
+//   "fullName": "John Doe",
+//   "guardian": {
+//     "permanentAddress": "123 Main Street, City, Country",
+//     "email": "guardian@example.com",
+//     "contactNumber": "9876543210"
+//   },
+//   "dateOfBirth": "2005-08-15T00:00:00.000Z",
+//   "gender": "Male",
+//   "school": "Springfield High School",
+//   "admissionNumber": "A12345",
+//   "SClass": "64f8a7d8b5f2c3a1d4e5f6b8",
+//   "createdAt": "2024-02-22T12:00:00.000Z",
+//   "updatedAt": "2024-02-22T12:00:00.000Z",
+//   "__v": 0
+// }
