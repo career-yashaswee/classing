@@ -13,13 +13,15 @@ const taskRoutes = require("./routes/taskRoutes");
 const sclassRoutes = require("./routes/sclassRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 const settingRoutes = require("./routes/settingRoutes");
+const kanbanRoutes = require("./routes/kanbanRoutes");
+const attentionRoutes = require("./routes/attentionRoutes");
 
 const app = express();
 
 // CORS Middleware
 app.use(
   cors({
-    origin: [process.env.ADMIN_URL, process.env.MOBILE_URL],
+    origin: [process.env.ADMIN_URL, process.env.MOBILE_URL, process.env.EDUCATOR_URL],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Access-Control-Allow-Origin"],
     credentials: true,
@@ -55,6 +57,8 @@ app.use("/task", taskRoutes);
 app.use("/sclass", sclassRoutes);
 app.use("/chat", chatRoutes);
 app.use("/setting", settingRoutes);
+app.use("/kanban", kanbanRoutes);
+app.use("/attention", attentionRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
@@ -69,7 +73,7 @@ const URL =
     : process.env.SERVER_DEVELOPMENT_URL;
 
 // Set PORT dynamically. (Mainly it will always be Active at port 3000).
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 // Start the server
 app.listen(PORT, () => {
