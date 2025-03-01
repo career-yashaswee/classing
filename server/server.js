@@ -15,13 +15,19 @@ const chatRoutes = require("./routes/chatRoutes");
 const settingRoutes = require("./routes/settingRoutes");
 const kanbanRoutes = require("./routes/kanbanRoutes");
 const attentionRoutes = require("./routes/attentionRoutes");
+const deckRoutes = require("./routes/deck");
+const quizRoutes = require("./routes/quiz");
 
 const app = express();
 
 // CORS Middleware
 app.use(
   cors({
-    origin: [process.env.ADMIN_URL, process.env.MOBILE_URL, process.env.EDUCATOR_URL],
+    origin: [
+      process.env.ADMIN_URL,
+      process.env.MOBILE_URL,
+      process.env.EDUCATOR_URL,
+    ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Access-Control-Allow-Origin"],
     credentials: true,
@@ -59,6 +65,8 @@ app.use("/chat", chatRoutes);
 app.use("/setting", settingRoutes);
 app.use("/kanban", kanbanRoutes);
 app.use("/attention", attentionRoutes);
+app.use("/deck", deckRoutes);
+app.use("/quiz", quizRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
