@@ -17,6 +17,9 @@ const kanbanRoutes = require("./routes/kanbanRoutes");
 const attentionRoutes = require("./routes/attentionRoutes");
 const deckRoutes = require("./routes/deck");
 const quizRoutes = require("./routes/quiz");
+const deckFCRoutes = require("./routes/deckFCRoutes");
+const flashCard = require("./routes/flashCardRoutes");
+const socratesProb = require("./routes/socratesProbRoutes");
 
 const app = express();
 
@@ -65,8 +68,11 @@ app.use("/chat", chatRoutes);
 app.use("/setting", settingRoutes);
 app.use("/kanban", kanbanRoutes);
 app.use("/attention", attentionRoutes);
-app.use("/deck", deckRoutes);
+app.use("/deckQuiz", deckRoutes);
 app.use("/quiz", quizRoutes);
+app.use("/deckFLashCard", deckFCRoutes);
+app.use("/flashCard", flashCard);
+app.use("/socratesProb", socratesProb);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
