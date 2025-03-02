@@ -20,6 +20,8 @@ const quizRoutes = require("./routes/quiz");
 const deckFCRoutes = require("./routes/deckFCRoutes");
 const flashCard = require("./routes/flashCardRoutes");
 const socratesProb = require("./routes/socratesProbRoutes");
+const interestCollection = require("./routes/interestCollectionRoutes");
+const nudgeRoutes = require("./routes/nudgeRoutes");
 
 const app = express();
 
@@ -73,6 +75,8 @@ app.use("/quiz", quizRoutes);
 app.use("/deckFLashCard", deckFCRoutes);
 app.use("/flashCard", flashCard);
 app.use("/socratesProb", socratesProb);
+app.use("/interestCollection", interestCollection);
+app.use("/nudge", nudgeRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {

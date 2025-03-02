@@ -1,12 +1,12 @@
 const express = require("express");
 const router = express.Router();
 const {
-    createAttention,
-    getAllAttention,
-    getAttentionById,
-    updateAttention,
-    deleteAttention,
-  } = require("../controllers/attentionController");
+  createAttention,
+  getAllAttention,
+  getAttentionById,
+  updateAttention,
+  deleteAttention,
+} = require("../controllers/attentionController");
 
 // Create a new record
 router.post("/", createAttention);

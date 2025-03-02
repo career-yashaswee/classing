@@ -1,16 +1,16 @@
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const SocratesProbController = require('../controllers/socratesProbController');
+const SocratesProbController = require("../controllers/socratesProbController");
 
 // Route to create a new record
-router.post('/', SocratesProbController.createSocratesProb);
+router.post("/", SocratesProbController.createSocratesProb);
 // Route to get all records
-router.get('/', SocratesProbController.getAllSocratesProbs);
+router.get("/", SocratesProbController.getAllSocratesProbs);
 // Route to get a single record by ID
-router.get('/:id', SocratesProbController.getSocratesProbById);
+router.get("/:id", SocratesProbController.getSocratesProbById);
 // Route to update a record by ID
-router.put('/:id', SocratesProbController.updateSocratesProb);
+router.put("/:id", SocratesProbController.updateSocratesProb);
 // Route to delete a record by ID
-router.delete('/:id', SocratesProbController.deleteSocratesProb);
+router.delete("/:id", SocratesProbController.deleteSocratesProb);
 
 module.exports = router;

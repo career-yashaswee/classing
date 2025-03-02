@@ -55,14 +55,25 @@ const sessionSchema = new mongoose.Schema(
       type: String,
       required: true,
       default: function () {
-        return Math.random().toString(36).substring(2, 6).toUpperCase(); 
+        return Math.random().toString(36).substring(2, 6).toUpperCase();
       },
       validate: {
         validator: function (v) {
           return /^[A-Za-z]{4}$/.test(v); // Ensures only 4 alphabetic characters
         },
-        message: "Invite code must be exactly 4 alphabetic characters (A-Z, a-z)."
-      }
+        message:
+          "Invite code must be exactly 4 alphabetic characters (A-Z, a-z).",
+      },
+    },
+    URL: {
+      type: String,
+      required: true,
+      validate: {
+        validator: function (v) {
+          return /^(https?:\/\/)/i.test(v); // Allows any valid URL starting with http or https
+        },
+        message: "URL must be a valid link starting with http or https.",
+      },
     },
   },
   { timestamps: true }
@@ -71,7 +82,7 @@ const sessionSchema = new mongoose.Schema(
 const Session = mongoose.model("Session", sessionSchema);
 module.exports = Session;
 
-// JSON Format : 
+// JSON Format :
 //
 // {
 //   "_id": "65c8d1f9e73a3d1a5c9f1b9i",

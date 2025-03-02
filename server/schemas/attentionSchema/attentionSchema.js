@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const attentionSchema = new mongoose.Schema(
   {
     roll: {
-      type: Number, 
+      type: Number,
       required: true,
       unique: true,
       trim: true,
@@ -26,14 +26,14 @@ const attentionSchema = new mongoose.Schema(
       type: String,
       default: null,
       trim: true,
-    }
+    },
   },
   { timestamps: true }
 );
 
 module.exports = mongoose.model("attentionSchema", attentionSchema);
 
-// JSON Format : 
+// JSON Format :
 //
 // {
 //   "_id": "64f8a7d8b5f2c3a1d4e5f6b7",
