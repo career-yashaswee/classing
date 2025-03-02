@@ -10,20 +10,20 @@ const taskItemSchema = new mongoose.Schema({
   maximumMarks: { type: Number, required: true },
   marksScored: { type: Number, default: null },
   material: { type: String, default: null },
-  tags: { type: [String], required: true }
+  tags: { type: [String], required: true },
 });
 
 // Task Schema (Unique Section ID)
 const taskSchema = new mongoose.Schema({
   sessionId: { type: mongoose.Schema.Types.ObjectId, auto: true, unique: true }, // Auto-generated Unique Object ID
-  tasks: { type: [taskItemSchema], required: true } // Array of Task Items
+  tasks: { type: [taskItemSchema], required: true }, // Array of Task Items
 });
 
 // Export
 const Task = mongoose.model("TaskSchema", taskSchema);
 module.exports = Task;
 
-// JSON Format : 
+// JSON Format :
 //
 // {
 //   "_id": "65d7b0e5f3a9c4d2e7b8f6a1",
