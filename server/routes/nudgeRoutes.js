@@ -12,4 +12,7 @@ router.get("/:id", nudgeController.getNudgeById);
 router.put("/:id", nudgeController.updateNudge);
 // Delete a Nudge by ID
 router.delete("/:id", nudgeController.deleteNudge);
+// Route to get nudges by sessionId
+router.get("/session/:sessionId", nudgeController.getNudgeBySessionId);
+
 module.exports = router;

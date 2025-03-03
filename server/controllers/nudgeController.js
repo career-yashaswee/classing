@@ -57,3 +57,19 @@ exports.deleteNudge = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+// by SessionID.
+exports.getNudgeBySessionId = async (req, res) => {
+  try {
+    const nudges = await Nudge.find({ sessionId: req.params.sessionId });
+
+    if (!nudges || nudges.length === 0) {
+      return res.status(404).json({ message: "No Nudges found for this session" });
+    }
+
+    res.status(200).json(nudges);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
