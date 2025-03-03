@@ -4,12 +4,5 @@ declare module "@/data/data" {
     logo: string;
     description: string;
   };
-
-  interface API {
-    ACTIVITY: {
-      GET_ALL_ACTIVITY: string;
-    };
-    USER: {};
-  }
-  export { siteConfig, API };
+  export { siteConfig };
 }

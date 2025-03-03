@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { SplashScreen } from "@/components/app-wide/SplashScreen";
 import Session from "@/modules/dashboard/class/Session";
+import LiveSession from "@/modules/dashboard/class/session/live/LiveSession";
 
 const Viz = lazy(() => import("@/modules/viz/VizLibrary"));
 const Video = lazy(() => import("@/modules/video/Video"));
@@ -21,7 +22,7 @@ function ProtectedRoute() {
   return (
     <Suspense fallback={<SplashScreen />}>
       <Router>
-        <Routes>
+        <Routes>ßßßß
           <Route path="/viz" element={<Viz />} />
           <Route path="/video" element={<Video />} />
           <Route path="/subject" element={<Subject />} />
@@ -33,6 +34,7 @@ function ProtectedRoute() {
           <Route path="/analytics" element={<Analytics />} />
           <Route path="/activity" element={<Activity />} />
           <Route path="/session" element={<Session />} />
+          <Route path="/session/:sessionID/present" element={<LiveSession />} />
           <Route path="/" element={<Dashboard />} />
           <Route path="*" element={<Error />} />
         </Routes>

@@ -1,26 +1,33 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const doubtCollectionItemSchema = new mongoose.Schema({
   // collectionId: { type: mongoose.Schema.Types.ObjectId, auto: true }, // Auto-generate ObjectId
   summary: { type: String, required: true }, // Summary text
-  category: { type: [String], enum: ["Theoretical", "Conceptual"], required: true }, // Array of valid categories
+  category: {
+    type: [String],
+    enum: ["Theoretical", "Conceptual"],
+    required: true,
+  }, // Array of valid categories
   count: { type: Number, required: true }, // Number of related doubts
   complexity: { type: Number, min: 1, max: 10, required: true }, // Complexity level (1 to 5)
   timeArrived: { type: Date, required: true, default: Date.now }, // Timestamp
   isAiSummarized: { type: Boolean, default: false }, // Boolean flag
-  aiRating: { 
-    type: String, 
-    enum: ["Most Asked", "Common", "Rare"], 
-    required: true 
+  aiRating: {
+    type: String,
+    enum: ["Most Asked", "Common", "Rare"],
+    required: true,
   }, // AI Rating (fixed options)
-  originalDoubts: { type: [String], required: true } // List of questions
+  originalDoubts: { type: [String], required: true }, // List of questions
 });
 
 // Exporting the Model
-const DoubtCollectionItemSchema = mongoose.model('DoubtCollectionItem', doubtCollectionItemSchema);
+const DoubtCollectionItemSchema = mongoose.model(
+  "DoubtCollectionItem",
+  doubtCollectionItemSchema
+);
 module.exports = DoubtCollectionItemSchema;
 
-// EXAMPLE: 
+// EXAMPLE:
 // {
 //   "tackled": 3,
 //   "doubts": [
@@ -54,4 +61,3 @@ module.exports = DoubtCollectionItemSchema;
 //     }
 //   ]
 // }
-

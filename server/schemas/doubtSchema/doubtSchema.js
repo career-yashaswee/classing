@@ -11,7 +11,7 @@ const DoubtSchema = new mongoose.Schema({
 
 module.exports = mongoose.model("Doubt", DoubtSchema);
 
-// JSON Format : 
+// JSON Format :
 
 // {
 //   "sessionId": "session_12345",

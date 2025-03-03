@@ -7,49 +7,99 @@ import {
   Group,
   Image,
   Text,
+  RingProgress,
 } from "@mantine/core";
 import classes from "./SessionCard.module.css";
+import { TSession } from "@/types/session";
 
-const mockdata = {
-  image:
-    "https://images.unsplash.com/photo-1437719417032-8595fd9e9dc6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=600&q=80",
-  title: "Verudela Beach",
-  country: "Croatia",
-  description:
-    "Completely renovated for the season 2020, Arena Verudela Bech Apartments are fully equipped and modernly furnished 4-star self-service apartments located on the Adriatic coastline by one of the most beautiful beaches in Pula.",
-  badges: [
-    { emoji: "☀️", label: "Sunny weather" },
-    { emoji: "🦓", label: "Onsite zoo" },
-    { emoji: "🌊", label: "Sea" },
-    { emoji: "🌲", label: "Nature" },
-    { emoji: "🤽", label: "Water sports" },
-  ],
-};
-
-export function SessionCard() {
-  const { image, title, description, country, badges } = mockdata;
-  const features = badges.map((badge) => (
-    <Badge variant="light" key={badge.label} leftSection={badge.emoji}>
-      {badge.label}
+export function SessionCard({
+  image,
+  title,
+  subject,
+  description,
+  duration,
+  course,
+  sClass,
+  topic_tags,
+  focus,
+  session_start_date,
+  session_start_time,
+}: TSession) {
+  const features = topic_tags.map((tag, index) => (
+    // add leftSection={tag.emoji} to add something to the left
+    <Badge variant="light" key={index}>
+      {tag}
     </Badge>
   ));
+
+  const items = () => (
+    <div className="">
+      <div key={1}>
+        <Text size="xs" color="dimmed">
+          Class
+        </Text>
+        <Text fw={500} size="sm">
+          {sClass}
+        </Text>
+      </div>
+      <div key={2}>
+        <Text size="xs" color="dimmed">
+          Course
+        </Text>
+        <Text fw={500} size="sm">
+          {course}
+        </Text>
+      </div>
+      <div key={3}>
+        <Text size="xs" color="dimmed">
+          Focus
+        </Text>
+        <Text fw={500} size="sm">
+          {focus}
+        </Text>
+      </div>
+      <div key={4}>
+        <Text size="xs" color="dimmed">
+          Duration
+        </Text>
+        <Text fw={500} size="sm">
+          {duration}
+        </Text>
+      </div>
+    </div>
+  );
 
   return (
     <Card withBorder radius="md" p="md" className={classes.card}>
       <Card.Section>
-        <Image src={image} alt={title} height={180} />
+        <Image
+          src={
+            image ??
+            "https://images.unsplash.com/photo-1417325384643-aac51acc9e5d"
+          }
+          alt={title}
+        />
       </Card.Section>
-
       <Card.Section className={classes.section} mt="md">
         <Group justify="apart">
           <Text fz="lg" fw={500}>
             {title}
           </Text>
           <Badge size="sm" variant="light">
-            {country}
+            {subject}
           </Badge>
         </Group>
-        <Text fz="sm" mt="xs">
+        <Group gap={5}>
+          <Text fz="xs" c="dimmed">
+            80% completed
+          </Text>
+          <RingProgress
+            size={18}
+            thickness={2}
+            sections={[{ value: 80, color: "blue" }]}
+          />
+        </Group>
+        <Text mt="sm" mb="md" c="dimmed" fz="xs">
           {description}
         </Text>
       </Card.Section>
@@ -62,7 +112,7 @@ export function SessionCard() {
           {features}
         </Group>
       </Card.Section>
-
+      <Card.Section className={classes.footer}>{items()}</Card.Section>
       <Group mt="xs">
         <Button radius="md" style={{ flex: 1 }}>
           Show details

@@ -25,6 +25,8 @@ const nudgeRoutes = require("./routes/nudgeRoutes");
 const simulationRoutes = require("./routes/simulationRoutes");
 const resourceRoutes = require("./routes/resourseRoutes");
 const attentionAttemptRoutes = require("./routes/attentionAttemptRoutes");
+const simulationRoutes = require("./routes/simulation");
+const resourceRoutes = require("./routes/resource");
 
 const app = express();
 
@@ -80,6 +82,8 @@ app.use("/flashCard", flashCard);
 app.use("/socratesProb", socratesProb);
 app.use("/interestCollection", interestCollection);
 app.use("/nudge", nudgeRoutes);
+app.use("/simulation", simulationRoutes);
+app.use("/resource", resourceRoutes);
 app.use("/simulation", simulationRoutes);
 app.use("/resource", resourceRoutes);
 app.use("/attentionAttempt", attentionAttemptRoutes)
