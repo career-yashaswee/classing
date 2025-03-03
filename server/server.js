@@ -3,7 +3,6 @@ const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
-// Required Files to be Imported.
 const activityCollectionRoutes = require("./routes/activityRoutes");
 const sessionRoutes = require("./routes/sessionRoutes");
 const doubtRoutes = require("./routes/doubtRoutes");
@@ -25,6 +24,7 @@ const attentionAttemptRoutes = require("./routes/attentionAttemptRoutes");
 const simulationRoutes = require("./routes/simulation");
 const resourceRoutes = require("./routes/resource");
 const nudgeRoutes = require("./routes/nudgeRoutes");
+const doubtCollectionRoutes = require("./routes/doubtCollectionRoutes");
 const app = express();
 
 // CORS Middleware
@@ -82,6 +82,7 @@ app.use("/nudge", nudgeRoutes);
 app.use("/simulation", simulationRoutes);
 app.use("/resource", resourceRoutes);
 app.use("/attentionAttempt", attentionAttemptRoutes);
+app.use("/doubtcollection", doubtCollectionRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {

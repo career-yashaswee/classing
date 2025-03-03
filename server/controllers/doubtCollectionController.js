@@ -4,7 +4,7 @@ const DoubtCollectionItem = require("../schemas/doubtCollectionSchema/doubtColle
 // CREATE a doubt collection for all students
 exports.createDoubtCollection = async (req, res) => {
   try {
-    const { tackled, doubts } = req.body;
+    const { tackled, doubts, sessionID } = req.body;
     // Ensure doubts array contains valid documents
     const savedDoubts = await Promise.all(
       doubts.map(async (doubt) => {
@@ -15,7 +15,8 @@ exports.createDoubtCollection = async (req, res) => {
     // Create a new doubt collection with references
     const newDoubtCollection = new DoubtCollection({
       tackled,
-      doubts: savedDoubts.map((d) => d._id), // Store only ObjectIds
+      doubts: savedDoubts.map((d) => d._id),
+      sessionID,
     });
     const savedCollection = await newDoubtCollection.save();
     res.status(201).json(savedCollection);
