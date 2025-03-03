@@ -12,5 +12,8 @@ router.get("/:id", interestCollectionController.getInterestCollectionById);
 router.put("/:id", interestCollectionController.updateInterestCollection);
 // Delete an Interest Collection
 router.delete("/:id", interestCollectionController.deleteInterestCollection);
+// Route to get all InterestCollection by sessionId
+router.get("/session/:sessionId", interestCollectionController.getInterestCollectionBySessionId);
+
 
 module.exports = router;

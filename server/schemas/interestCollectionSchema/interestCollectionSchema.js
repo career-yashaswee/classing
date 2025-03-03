@@ -23,6 +23,11 @@ const interestCollectionSchema = new mongoose.Schema({
     required: true,
     min: 1,
   },
+  sessionId: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "Session",
+    required: true,
+  },
 });
 
 const InterestCollection = mongoose.model(

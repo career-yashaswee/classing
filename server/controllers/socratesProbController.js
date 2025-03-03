@@ -51,6 +51,22 @@ exports.updateSocratesProb = async (req, res) => {
   }
 };
 
+// by SessionID.
+exports.getSocratesProbBySessionId = async (req, res) => {
+  try {
+    const probs = await SocratesProb.find({ sessionId: req.params.sessionId });
+
+    if (!probs || probs.length === 0) {
+      return res.status(404).json({ message: "No records found for this session" });
+    }
+
+    res.status(200).json(probs);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+
 // Delete a record by ID
 exports.deleteSocratesProb = async (req, res) => {
   try {

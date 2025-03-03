@@ -12,5 +12,8 @@ router.get("/:id", SocratesProbController.getSocratesProbById);
 router.put("/:id", SocratesProbController.updateSocratesProb);
 // Route to delete a record by ID
 router.delete("/:id", SocratesProbController.deleteSocratesProb);
+// Route to get all SocratesProb by sessionId
+router.get("/session/:sessionId", SocratesProbController.getSocratesProbBySessionId);
+
 
 module.exports = router;

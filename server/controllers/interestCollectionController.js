@@ -34,6 +34,22 @@ exports.getInterestCollectionById = async (req, res) => {
   }
 };
 
+// Get all InterestCollection records by sessionId
+exports.getInterestCollectionBySessionId = async (req, res) => {
+  try {
+    const interestCollections = await InterestCollection.find({ sessionId: req.params.sessionId });
+
+    if (!interestCollections || interestCollections.length === 0) {
+      return res.status(404).json({ message: "No interest collections found for this session" });
+    }
+
+    res.status(200).json(interestCollections);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+
 // Update an Interest Collection
 exports.updateInterestCollection = async (req, res) => {
   try {
