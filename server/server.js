@@ -22,6 +22,9 @@ const flashCard = require("./routes/flashCardRoutes");
 const socratesProb = require("./routes/socratesProbRoutes");
 const interestCollection = require("./routes/interestCollectionRoutes");
 const nudgeRoutes = require("./routes/nudgeRoutes");
+const simulationRoutes = require("./routes/simulationRoutes");
+const resourceRoutes = require("./routes/resourseRoutes");
+const attentionAttemptRoutes = require("./routes/attentionAttemptRoutes");
 
 const app = express();
 
@@ -77,6 +80,9 @@ app.use("/flashCard", flashCard);
 app.use("/socratesProb", socratesProb);
 app.use("/interestCollection", interestCollection);
 app.use("/nudge", nudgeRoutes);
+app.use("/simulation", simulationRoutes);
+app.use("/resource", resourceRoutes);
+app.use("/attentionAttempt", attentionAttemptRoutes)
 
 // Global Error Handler
 app.use((err, req, res, next) => {
