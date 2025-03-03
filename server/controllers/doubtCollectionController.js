@@ -33,11 +33,12 @@ exports.createDoubtCollection = async (req, res) => {
 //       res.status(500).json({ error: error.message });
 //     }
 // };
-  
 
 exports.getDoubtCollectionById = async (req, res) => {
   try {
-    const doubtCollection = await DoubtCollection.findById(req.params.id).populate("doubts");
+    const doubtCollection = await DoubtCollection.findById(
+      req.params.id
+    ).populate("doubts");
     if (!doubtCollection) {
       return res.status(404).json({ message: "Doubt Collection not found" });
     }
@@ -46,7 +47,6 @@ exports.getDoubtCollectionById = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
-
 
 // UPDATE a doubt collection by ID
 exports.updateDoubtCollection = async (req, res) => {
@@ -68,11 +68,31 @@ exports.updateDoubtCollection = async (req, res) => {
 // DELETE a doubt collection by ID
 exports.deleteDoubtCollection = async (req, res) => {
   try {
-    const deletedCollection = await DoubtCollection.findByIdAndDelete(req.params.id);
+    const deletedCollection = await DoubtCollection.findByIdAndDelete(
+      req.params.id
+    );
     if (!deletedCollection) {
       return res.status(404).json({ message: "Doubt Collection not found" });
     }
     res.status(200).json({ message: "Doubt Collection deleted successfully" });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+exports.getAllDoubtCollectionsBySessionID = async (req, res) => {
+  try {
+    const { sessionID } = req.params;
+
+    const doubtCollections = await DoubtCollection.find({ sessionID }).populate(
+      "doubts"
+    );
+    if (!doubtCollections || doubtCollections.length === 0) {
+      return res
+        .status(404)
+        .json({ message: "No Doubt Collections found for this session" });
+    }
+    res.status(200).json(doubtCollections);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

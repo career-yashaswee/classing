@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 
 // MAIN : 
 const doubtCollectionSchema = new mongoose.Schema({
+  sessionID: { type: mongoose.Schema.Types.ObjectId, ref: "Session", required: true }, // Reference to sessionSchema
   tackled: {type: Number, required: true, default: 0},
   doubts: [{ type: mongoose.Schema.Types.ObjectId, ref: "DoubtCollectionItem", required: true }] // Array of references to Doubt schema
 });

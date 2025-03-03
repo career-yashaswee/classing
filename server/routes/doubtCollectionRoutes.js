@@ -7,5 +7,6 @@ router.post("/create", doubtCollectionController.createDoubtCollection);
 router.get("/:id", doubtCollectionController.getDoubtCollectionById);
 router.put("/:id", doubtCollectionController.updateDoubtCollection);
 router.delete("/:id", doubtCollectionController.deleteDoubtCollection);
+router.get("/session/:sessionID", doubtCollectionController.getAllDoubtCollectionsBySessionID);
 
 module.exports = router;
