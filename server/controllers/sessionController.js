@@ -132,12 +132,10 @@ const verifySClassMatch = async (req, res) => {
       session.SClass &&
       student.SClass.toString() === session.SClass.toString()
     ) {
-      return res
-        .status(200)
-        .json({
-          message: "SClass ID matches and invite code is correct!",
-          allowed: true,
-        });
+      return res.status(200).json({
+        message: "SClass ID matches and invite code is correct!",
+        allowed: true,
+      });
     } else {
       return res
         .status(403)
@@ -149,7 +147,27 @@ const verifySClassMatch = async (req, res) => {
   }
 };
 
-module.exports = { verifySClassMatch };
+// Get Session by InviteCode
+const getSessionByInviteCode = async (req, res) => {
+  try {
+    const { inviteCode } = req.params;
+
+    const session = await Session.findOne({ inviteCode });
+    if (!session) {
+      return res
+        .status(404)
+        .json({ error: "Session not found or incorrect invite code" });
+    }
+    res.status(200).json({
+      message: "Session found",
+      session,
+    });
+  } catch (error) {
+    res.status(500).json({ error: "Server error", details: error.message });
+  }
+};
+
+// module.exports = { verifySClassMatch };
 
 // Export all the Session.
 module.exports = {
@@ -160,4 +178,5 @@ module.exports = {
   getAllSessions,
   getSessionBySClassId,
   verifySClassMatch,
+  getSessionByInviteCode,
 };

@@ -40,7 +40,6 @@ const authorSchema = new mongoose.Schema({
 //     url: `http://localhost:3000/#json=AoqiIOIjflo2i3-_GXHw8,uLwZ9Fp--BhuxJfbDRAEWw`,
 //   },
 const visualizationSchema = new mongoose.Schema({
-  id: { type: mongoose.Schema.Types.ObjectId, ref: "UserSchema" },
   title: { type: String, required: true },
   description: { type: String, required: true },
   thumbnail: { type: String, required: true },

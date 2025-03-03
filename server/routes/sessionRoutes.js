@@ -18,5 +18,8 @@ router.delete("/:objectID", sessionController.deleteSession);
 router.get("/", sessionController.getAllSessions);
 // GET Session by SClass ID
 router.get("/sclass/:sclassId", sessionController.getSessionBySClassId);
+// Route to get session by ObjectID and verify invite code
+router.get("/invite/:inviteCode", sessionController.getSessionByInviteCode);
+
 // Exports // Checked and Corrected
 module.exports = router;

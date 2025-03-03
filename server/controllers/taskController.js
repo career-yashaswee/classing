@@ -6,7 +6,7 @@ exports.createTask = async (req, res) => {
   try {
     const newTask = new Task(req.body);
     const savedTask = await newTask.save();
-    res.status(201).json({ message: "Task created successfully", savedTask});
+    res.status(201).json({ message: "Task created successfully", savedTask });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
@@ -38,7 +38,9 @@ exports.getTaskById = async (req, res) => {
 // Update a task by sessionId
 exports.updateTask = async (req, res) => {
   try {
-    const updatedTask = await Task.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    const updatedTask = await Task.findByIdAndUpdate(req.params.id, req.body, {
+      new: true,
+    });
     if (!updatedTask) {
       return res.status(404).json({ message: "Task not found" });
     }
@@ -58,5 +60,22 @@ exports.deleteTask = async (req, res) => {
     res.status(200).json({ message: "Task deleted successfully" });
   } catch (error) {
     res.status(500).json({ error: error.message });
+  }
+};
+
+// Get All Tasks by Session ID
+exports.getAllTasksBySessionID = async (req, res) => {
+  try {
+    const { sessionId } = req.params; // Extract sessionId from request parameters
+    // Find tasks by sessionId
+    const tasks = await Task.findOne({ sessionId }).populate("sessionId");
+    if (!tasks) {
+      return res
+        .status(404)
+        .json({ message: "No tasks found for this session ID" });
+    }
+    res.status(200).json(tasks);
+  } catch (error) {
+    res.status(500).json({ message: "Server error", error: error.message });
   }
 };

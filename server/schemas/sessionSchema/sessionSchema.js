@@ -75,6 +75,20 @@ const sessionSchema = new mongoose.Schema(
         message: "URL must be a valid link starting with http or https.",
       },
     },
+    topics: {
+      type: [
+        {
+          id: { type: Number, required: true },
+          title: { type: String, required: true },
+          covered: { type: Boolean, required: true },
+        },
+      ],
+      required: true,
+    },
+    __v: {
+      type: Number,
+      select: false, // Hides __v field by default in queries
+    },
   },
   { timestamps: true }
 );

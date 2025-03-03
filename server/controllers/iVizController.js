@@ -72,3 +72,14 @@ exports.deleteVisualization = async (req, res) => {
     res.status(500).json({ error: error.message });
   }
 };
+
+// Get all visualizations
+exports.getAllVisualizations = async (req, res) => {
+  try {
+    const visualizations = await Visualization.find();
+    res.status(200).json({ message: "Visualizations fetched successfully", data: visualizations });
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+

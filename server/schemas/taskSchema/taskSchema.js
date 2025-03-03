@@ -15,8 +15,8 @@ const taskItemSchema = new mongoose.Schema({
 
 // Task Schema (Unique Section ID)
 const taskSchema = new mongoose.Schema({
-  sessionId: { type: mongoose.Schema.Types.ObjectId, auto: true, unique: true }, // Auto-generated Unique Object ID
-  tasks: { type: [taskItemSchema], required: true }, // Array of Task Items
+  sessionId: { type: mongoose.Schema.Types.ObjectId, ref: "Session" }, // Auto-generated Unique Object ID
+  tasks: { type: [taskItemSchema], required: true } // Array of Task Items
 });
 
 // Export

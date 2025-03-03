@@ -9,5 +9,7 @@ router.get('/:id', iVizController.getVisualizationById);
 router.put('/:id', iVizController.updateVisualization);
 // Delete a visualization by ID
 router.delete('/:id', iVizController.deleteVisualization);
+// Get a visualization
+router.get('/', iVizController.getAllVisualizations);
 
 module.exports = router; // Importing the Route.
