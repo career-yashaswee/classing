@@ -21,13 +21,10 @@ const deckFCRoutes = require("./routes/deckFCRoutes");
 const flashCard = require("./routes/flashCardRoutes");
 const socratesProb = require("./routes/socratesProbRoutes");
 const interestCollection = require("./routes/interestCollectionRoutes");
-const nudgeRoutes = require("./routes/nudgeRoutes");
-const simulationRoutes = require("./routes/simulationRoutes");
-const resourceRoutes = require("./routes/resourseRoutes");
 const attentionAttemptRoutes = require("./routes/attentionAttemptRoutes");
 const simulationRoutes = require("./routes/simulation");
 const resourceRoutes = require("./routes/resource");
-
+const nudgeRoutes = require("./routes/nudgeRoutes");
 const app = express();
 
 // CORS Middleware
@@ -84,9 +81,7 @@ app.use("/interestCollection", interestCollection);
 app.use("/nudge", nudgeRoutes);
 app.use("/simulation", simulationRoutes);
 app.use("/resource", resourceRoutes);
-app.use("/simulation", simulationRoutes);
-app.use("/resource", resourceRoutes);
-app.use("/attentionAttempt", attentionAttemptRoutes)
+app.use("/attentionAttempt", attentionAttemptRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
@@ -108,5 +103,5 @@ app.listen(PORT, () => {
   // console.log(`CLIENT sending on ${process.env.CLIENT_URL}`);
   console.log(`SERVER listening on ${URL}:${PORT}`);
 });
-  
+
 module.exports = app;

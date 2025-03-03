@@ -168,26 +168,6 @@ const getSessionByInviteCode = async (req, res) => {
   }
 };
 
-// Get Session by InviteCode
-const getSessionByInviteCode = async (req, res) => {
-  try {
-    const { inviteCode } = req.params;
-
-    const session = await Session.findOne({ inviteCode });
-    if (!session) {
-      return res
-        .status(404)
-        .json({ error: "Session not found or incorrect invite code" });
-    }
-    res.status(200).json({
-      message: "Session found",
-      session,
-    });
-  } catch (error) {
-    res.status(500).json({ error: "Server error", details: error.message });
-  }
-};
-
 // module.exports = { verifySClassMatch };
 
 // Export all the Session.
