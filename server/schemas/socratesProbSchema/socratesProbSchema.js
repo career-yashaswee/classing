@@ -28,7 +28,8 @@ const SocratesProbSchema = new mongoose.Schema(
       required: true,
     },
     sessionID: {
-      type: String,
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "Session",
       required: true,
     },
     assistMode: {

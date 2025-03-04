@@ -1,81 +1,81 @@
 const SocratesProb = require("../schemas/socratesProbSchema/socratesProbSchema");
 
-// Create a new record
-exports.createSocratesProb = async (req, res) => {
+// Create a new SocratesProb
+const createSocratesProb = async (req, res) => {
   try {
-    const newProb = new SocratesProb(req.body);
-    const savedProb = await newProb.save();
-    res.status(201).json(savedProb);
+    const socratesProb = new SocratesProb(req.body);
+    await socratesProb.save();
+    res.status(201).json(socratesProb);
   } catch (error) {
     res.status(400).json({ error: error.message });
   }
 };
 
-// Get all records
-exports.getAllSocratesProbs = async (req, res) => {
+// Get all SocratesProbs
+const getAllSocratesProbs = async (req, res) => {
   try {
-    const probs = await SocratesProb.find();
-    res.status(200).json(probs);
+    const socratesProbs = await SocratesProb.find();
+    res.status(200).json(socratesProbs);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
 };
 
-// Get a single record by ID
-exports.getSocratesProbById = async (req, res) => {
+// Get a single SocratesProb by ID
+const getSocratesProbById = async (req, res) => {
   try {
-    const prob = await SocratesProb.findById(req.params.id);
-    if (!prob) {
-      return res.status(404).json({ message: "Record not found" });
+    const socratesProb = await SocratesProb.findById(req.params.id);
+    if (!socratesProb) {
+      return res.status(404).json({ message: "SocratesProb not found" });
     }
-    res.status(200).json(prob);
+    res.status(200).json(socratesProb);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
 };
 
-// Update a record by ID
-exports.updateSocratesProb = async (req, res) => {
+// Get SocratesProbs by Session ID
+const getSocratesProbsBySessionID = async (req, res) => {
   try {
-    const updatedProb = await SocratesProb.findByIdAndUpdate(
-      req.params.id,
-      req.body,
-      { new: true }
-    );
-    if (!updatedProb) {
-      return res.status(404).json({ message: "Record not found" });
-    }
-    res.status(200).json(updatedProb);
+    const { sessionID } = req.params;
+    const socratesProbs = await SocratesProb.find({ sessionID });
+    res.status(200).json(socratesProbs);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
 };
 
-// by SessionID.
-exports.getSocratesProbBySessionId = async (req, res) => {
+// Update a SocratesProb
+const updateSocratesProb = async (req, res) => {
   try {
-    const probs = await SocratesProb.find({ sessionId: req.params.sessionId });
-
-    if (!probs || probs.length === 0) {
-      return res.status(404).json({ message: "No records found for this session" });
+    const socratesProb = await SocratesProb.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    if (!socratesProb) {
+      return res.status(404).json({ message: "SocratesProb not found" });
     }
-
-    res.status(200).json(probs);
+    res.status(200).json(socratesProb);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
 };
 
-
-// Delete a record by ID
-exports.deleteSocratesProb = async (req, res) => {
+// Delete a SocratesProb
+const deleteSocratesProb = async (req, res) => {
   try {
-    const deletedProb = await SocratesProb.findByIdAndDelete(req.params.id);
-    if (!deletedProb) {
-      return res.status(404).json({ message: "Record not found" });
+    const socratesProb = await SocratesProb.findByIdAndDelete(req.params.id);
+    if (!socratesProb) {
+      return res.status(404).json({ message: "SocratesProb not found" });
     }
-    res.status(200).json({ message: "Record deleted successfully" });
+    res.status(200).json({ message: "SocratesProb deleted successfully" });
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
+};
+
+module.exports = {
+  createSocratesProb,
+  getAllSocratesProbs,
+  getSocratesProbById,
+  getSocratesProbsBySessionID,
+  updateSocratesProb,
+  deleteSocratesProb,
 };
