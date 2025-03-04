@@ -27,6 +27,7 @@ const nudgeRoutes = require("./routes/nudgeRoutes");
 const doubtCollectionRoutes = require("./routes/doubtCollectionRoutes");
 const leaderboardRoutes = require("./routes/leaderboardRoutes");
 const engagementRoutes = require("./routes/engagementRoutes");
+const badgeRoutes = require("./routes/badgeAwardRoutes");
 const app = express();
 
 // CORS Middleware
@@ -87,6 +88,7 @@ app.use("/attentionAttempt", attentionAttemptRoutes);
 app.use("/doubtcollection", doubtCollectionRoutes);
 app.use("/leaderboard", leaderboardRoutes);
 app.use("/engagement", engagementRoutes);
+app.use("/badgeAward", badgeRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {

@@ -48,7 +48,11 @@ const getSocratesProbsBySessionID = async (req, res) => {
 // Update a SocratesProb
 const updateSocratesProb = async (req, res) => {
   try {
-    const socratesProb = await SocratesProb.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    const socratesProb = await SocratesProb.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      { new: true }
+    );
     if (!socratesProb) {
       return res.status(404).json({ message: "SocratesProb not found" });
     }
