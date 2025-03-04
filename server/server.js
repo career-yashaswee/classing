@@ -25,6 +25,8 @@ const simulationRoutes = require("./routes/simulation");
 const resourceRoutes = require("./routes/resource");
 const nudgeRoutes = require("./routes/nudgeRoutes");
 const doubtCollectionRoutes = require("./routes/doubtCollectionRoutes");
+const leaderboardRoutes = require("./routes/leaderboardRoutes");
+const engagementRoutes = require("./routes/engagementRoutes");
 const app = express();
 
 // CORS Middleware
@@ -83,6 +85,8 @@ app.use("/simulation", simulationRoutes);
 app.use("/resource", resourceRoutes);
 app.use("/attentionAttempt", attentionAttemptRoutes);
 app.use("/doubtcollection", doubtCollectionRoutes);
+app.use("/leaderboard", leaderboardRoutes);
+app.use("/engagement", engagementRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
