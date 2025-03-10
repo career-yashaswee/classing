@@ -4,19 +4,28 @@ const mongoose = require("mongoose");
 const taskItemSchema = new mongoose.Schema({
   title: { type: String, required: true },
   description: { type: String, required: true },
+  subject: { type: String, required: true }, // Subject related to the task
+  grade: { type: Number, required: true }, // Grade Level
+  assignedBy: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: "UserSchema",
+    required: true,
+  }, // Educator assigning the task
   dueDate: { type: Date, required: true },
   course: { type: String, required: true },
   type: { type: String, required: true },
+  components: [{ type: mongoose.Schema.Types.ObjectId, ref: "TaskComponent" }], // Modular component references
   maximumMarks: { type: Number, required: true },
   marksScored: { type: Number, default: null },
   material: { type: String, default: null },
+  status: { type: String, enum: ["Active", "Closed"], default: "Active" }, // Task Status
   tags: { type: [String], required: true },
 });
 
 // Task Schema (Unique Section ID)
 const taskSchema = new mongoose.Schema({
   sessionId: { type: mongoose.Schema.Types.ObjectId, ref: "Session" }, // Auto-generated Unique Object ID
-  tasks: { type: [taskItemSchema], required: true } // Array of Task Items
+  tasks: { type: [taskItemSchema], required: true }, // Array of Task Items
 });
 
 // Export

@@ -29,9 +29,13 @@ const leaderboardRoutes = require("./routes/leaderboardRoutes");
 const engagementRoutes = require("./routes/engagementRoutes");
 const badgeRoutes = require("./routes/badgeAwardRoutes");
 const audiobookRoutes = require("./routes/audiobookRoutes");
+const videoRoutes = require("./routes/videoRoutes");
+const taskComponentRoutes = require("./routes/taskComponentsRoutes");
+const taskSubmissionRoutes = require("./routes/taskSubmissionRoutes");
+
 const app = express();
 
-// CORS Middleware
+// CORS Middleware - CORS (Cross-Origin Resource Sharing)
 app.use(
   cors({
     origin: [
@@ -91,6 +95,9 @@ app.use("/leaderboard", leaderboardRoutes);
 app.use("/engagement", engagementRoutes);
 app.use("/badgeAward", badgeRoutes);
 app.use("/audiobook", audiobookRoutes);
+app.use("/video", videoRoutes);
+app.use("/taskcomponent", taskComponentRoutes);
+app.use("/tasksubmission", taskSubmissionRoutes);
 
 // Global Error Handler
 app.use((err, req, res, next) => {
